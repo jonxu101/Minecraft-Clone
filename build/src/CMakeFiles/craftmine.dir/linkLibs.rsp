@@ -1,1 +1,0 @@
- ../lib/glfw/src/libglfw3.a C:/Users/Jonathan/Documents/Coding/MinecraftClone/lib/glew/lib/libglew32.a C:/Users/Jonathan/Documents/Coding/MinecraftClone/lib/glew/lib/libglew32mx.a "C:/Program Files (x86)/glm/lib/libglm.a" -lopengl32 -lgdi32 -luser32 -lkernel32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -11,7 +11,7 @@ private:
     unsigned int count_;
 
 public:
-    IndexBuffer(const void* data, unsigned int count);
+    IndexBuffer(const void* data, unsigned int count, GLenum usage = GL_STATIC_DRAW);
     ~IndexBuffer();
 
     void Bind() const;

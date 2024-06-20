@@ -4,7 +4,6 @@
 #include "Graphics/Texture.h"
 
 #include <string>
-#include <unordered_map>
 #include <vector>
 
 struct GameTexture {
@@ -23,7 +22,7 @@ private:
     int cachePtr_;
     int cacheSize_;
     std::vector<Texture*> CachedTextures_;
-    std::unordered_map<int, int> idToIndex_;
+    std::vector<int> IdToCacheIndex_;
     
 public:
     TextureManager();

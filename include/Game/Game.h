@@ -3,6 +3,8 @@
 #include "Block.h"
 #include "Chunk.h"
 #include "Player.h"
+
+#include "ChunkRenderer.h"
 #include "GameRenderer.h"
 
 #include "Graphics/Texture.h"
@@ -13,6 +15,7 @@
 class Game {
 private:
     GameRenderer GameRenderer_;
+    ChunkRenderer ChunkRenderer_;
 
     uint16_t renderDistance_;
     std::vector<std::vector<Chunk>> chunkCache_;

@@ -1,18 +1,20 @@
 add_executable(craftmine    main.cpp
 
-                            Block.cpp
-                            Chunk.cpp
-                            Game.cpp
-                            GameRenderer.cpp
-                            IndexBuffer.cpp
-                            Input.cpp
-                            Player.cpp
-                            Renderer.cpp
-                            Shader.cpp
-                            Texture.cpp
-                            TextureManager.cpp
-                            VertexArray.cpp
-                            VertexBuffer.cpp
+                            Game/Block.cpp
+                            Game/Chunk.cpp
+                            Game/ChunkRenderer.cpp
+                            Game/Game.cpp
+                            Game/GameRenderer.cpp
+                            Game/Input.cpp
+                            Game/Player.cpp
+                            Game/TextureManager.cpp
+
+                            Graphics/IndexBuffer.cpp
+                            Graphics/Renderer.cpp
+                            Graphics/Shader.cpp
+                            Graphics/Texture.cpp
+                            Graphics/VertexArray.cpp
+                            Graphics/VertexBuffer.cpp
                             
                             stb_image.cpp)
 

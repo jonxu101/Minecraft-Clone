@@ -39,6 +39,9 @@ int main(void) {
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
+    ChunkRenderer::Init();
+    ChunkIndexBuffer::Init();
+    
     Game game = Game();
     return game.Run(window);
 }
