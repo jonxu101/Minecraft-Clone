@@ -174,317 +174,365 @@ craftmine/fast:
 	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/build
 .PHONY : craftmine/fast
 
-Block.obj: Block.cpp.obj
-.PHONY : Block.obj
+External/stb_image.obj: External/stb_image.cpp.obj
+.PHONY : External/stb_image.obj
 
 # target to build an object file
-Block.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Block.cpp.obj
-.PHONY : Block.cpp.obj
+External/stb_image.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/External/stb_image.cpp.obj
+.PHONY : External/stb_image.cpp.obj
 
-Block.i: Block.cpp.i
-.PHONY : Block.i
+External/stb_image.i: External/stb_image.cpp.i
+.PHONY : External/stb_image.i
 
 # target to preprocess a source file
-Block.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Block.cpp.i
-.PHONY : Block.cpp.i
+External/stb_image.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/External/stb_image.cpp.i
+.PHONY : External/stb_image.cpp.i
 
-Block.s: Block.cpp.s
-.PHONY : Block.s
+External/stb_image.s: External/stb_image.cpp.s
+.PHONY : External/stb_image.s
 
 # target to generate assembly for a file
-Block.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Block.cpp.s
-.PHONY : Block.cpp.s
+External/stb_image.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/External/stb_image.cpp.s
+.PHONY : External/stb_image.cpp.s
 
-Chunk.obj: Chunk.cpp.obj
-.PHONY : Chunk.obj
+External/stb_image_write.obj: External/stb_image_write.cpp.obj
+.PHONY : External/stb_image_write.obj
 
 # target to build an object file
-Chunk.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Chunk.cpp.obj
-.PHONY : Chunk.cpp.obj
+External/stb_image_write.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj
+.PHONY : External/stb_image_write.cpp.obj
 
-Chunk.i: Chunk.cpp.i
-.PHONY : Chunk.i
+External/stb_image_write.i: External/stb_image_write.cpp.i
+.PHONY : External/stb_image_write.i
 
 # target to preprocess a source file
-Chunk.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Chunk.cpp.i
-.PHONY : Chunk.cpp.i
+External/stb_image_write.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.i
+.PHONY : External/stb_image_write.cpp.i
 
-Chunk.s: Chunk.cpp.s
-.PHONY : Chunk.s
+External/stb_image_write.s: External/stb_image_write.cpp.s
+.PHONY : External/stb_image_write.s
 
 # target to generate assembly for a file
-Chunk.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Chunk.cpp.s
-.PHONY : Chunk.cpp.s
+External/stb_image_write.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.s
+.PHONY : External/stb_image_write.cpp.s
 
-Game.obj: Game.cpp.obj
-.PHONY : Game.obj
+Game/Block.obj: Game/Block.cpp.obj
+.PHONY : Game/Block.obj
 
 # target to build an object file
-Game.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game.cpp.obj
-.PHONY : Game.cpp.obj
+Game/Block.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj
+.PHONY : Game/Block.cpp.obj
 
-Game.i: Game.cpp.i
-.PHONY : Game.i
+Game/Block.i: Game/Block.cpp.i
+.PHONY : Game/Block.i
 
 # target to preprocess a source file
-Game.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game.cpp.i
-.PHONY : Game.cpp.i
+Game/Block.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Block.cpp.i
+.PHONY : Game/Block.cpp.i
 
-Game.s: Game.cpp.s
-.PHONY : Game.s
+Game/Block.s: Game/Block.cpp.s
+.PHONY : Game/Block.s
 
 # target to generate assembly for a file
-Game.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game.cpp.s
-.PHONY : Game.cpp.s
+Game/Block.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Block.cpp.s
+.PHONY : Game/Block.cpp.s
 
-GameRenderer.obj: GameRenderer.cpp.obj
-.PHONY : GameRenderer.obj
+Game/Chunk.obj: Game/Chunk.cpp.obj
+.PHONY : Game/Chunk.obj
 
 # target to build an object file
-GameRenderer.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/GameRenderer.cpp.obj
-.PHONY : GameRenderer.cpp.obj
+Game/Chunk.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj
+.PHONY : Game/Chunk.cpp.obj
 
-GameRenderer.i: GameRenderer.cpp.i
-.PHONY : GameRenderer.i
+Game/Chunk.i: Game/Chunk.cpp.i
+.PHONY : Game/Chunk.i
 
 # target to preprocess a source file
-GameRenderer.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/GameRenderer.cpp.i
-.PHONY : GameRenderer.cpp.i
+Game/Chunk.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.i
+.PHONY : Game/Chunk.cpp.i
 
-GameRenderer.s: GameRenderer.cpp.s
-.PHONY : GameRenderer.s
+Game/Chunk.s: Game/Chunk.cpp.s
+.PHONY : Game/Chunk.s
 
 # target to generate assembly for a file
-GameRenderer.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/GameRenderer.cpp.s
-.PHONY : GameRenderer.cpp.s
+Game/Chunk.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.s
+.PHONY : Game/Chunk.cpp.s
 
-IndexBuffer.obj: IndexBuffer.cpp.obj
-.PHONY : IndexBuffer.obj
+Game/Game.obj: Game/Game.cpp.obj
+.PHONY : Game/Game.obj
 
 # target to build an object file
-IndexBuffer.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj
-.PHONY : IndexBuffer.cpp.obj
+Game/Game.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj
+.PHONY : Game/Game.cpp.obj
 
-IndexBuffer.i: IndexBuffer.cpp.i
-.PHONY : IndexBuffer.i
+Game/Game.i: Game/Game.cpp.i
+.PHONY : Game/Game.i
 
 # target to preprocess a source file
-IndexBuffer.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.i
-.PHONY : IndexBuffer.cpp.i
+Game/Game.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Game.cpp.i
+.PHONY : Game/Game.cpp.i
 
-IndexBuffer.s: IndexBuffer.cpp.s
-.PHONY : IndexBuffer.s
+Game/Game.s: Game/Game.cpp.s
+.PHONY : Game/Game.s
 
 # target to generate assembly for a file
-IndexBuffer.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.s
-.PHONY : IndexBuffer.cpp.s
+Game/Game.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Game.cpp.s
+.PHONY : Game/Game.cpp.s
 
-Input.obj: Input.cpp.obj
-.PHONY : Input.obj
+Game/GameRenderer.obj: Game/GameRenderer.cpp.obj
+.PHONY : Game/GameRenderer.obj
 
 # target to build an object file
-Input.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Input.cpp.obj
-.PHONY : Input.cpp.obj
+Game/GameRenderer.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj
+.PHONY : Game/GameRenderer.cpp.obj
 
-Input.i: Input.cpp.i
-.PHONY : Input.i
+Game/GameRenderer.i: Game/GameRenderer.cpp.i
+.PHONY : Game/GameRenderer.i
 
 # target to preprocess a source file
-Input.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Input.cpp.i
-.PHONY : Input.cpp.i
+Game/GameRenderer.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.i
+.PHONY : Game/GameRenderer.cpp.i
 
-Input.s: Input.cpp.s
-.PHONY : Input.s
+Game/GameRenderer.s: Game/GameRenderer.cpp.s
+.PHONY : Game/GameRenderer.s
 
 # target to generate assembly for a file
-Input.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Input.cpp.s
-.PHONY : Input.cpp.s
+Game/GameRenderer.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.s
+.PHONY : Game/GameRenderer.cpp.s
 
-Player.obj: Player.cpp.obj
-.PHONY : Player.obj
+Game/Input.obj: Game/Input.cpp.obj
+.PHONY : Game/Input.obj
 
 # target to build an object file
-Player.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Player.cpp.obj
-.PHONY : Player.cpp.obj
+Game/Input.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj
+.PHONY : Game/Input.cpp.obj
 
-Player.i: Player.cpp.i
-.PHONY : Player.i
+Game/Input.i: Game/Input.cpp.i
+.PHONY : Game/Input.i
 
 # target to preprocess a source file
-Player.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Player.cpp.i
-.PHONY : Player.cpp.i
+Game/Input.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Input.cpp.i
+.PHONY : Game/Input.cpp.i
 
-Player.s: Player.cpp.s
-.PHONY : Player.s
+Game/Input.s: Game/Input.cpp.s
+.PHONY : Game/Input.s
 
 # target to generate assembly for a file
-Player.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Player.cpp.s
-.PHONY : Player.cpp.s
+Game/Input.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Input.cpp.s
+.PHONY : Game/Input.cpp.s
 
-Renderer.obj: Renderer.cpp.obj
-.PHONY : Renderer.obj
+Game/Player.obj: Game/Player.cpp.obj
+.PHONY : Game/Player.obj
 
 # target to build an object file
-Renderer.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Renderer.cpp.obj
-.PHONY : Renderer.cpp.obj
+Game/Player.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Player.cpp.obj
+.PHONY : Game/Player.cpp.obj
 
-Renderer.i: Renderer.cpp.i
-.PHONY : Renderer.i
+Game/Player.i: Game/Player.cpp.i
+.PHONY : Game/Player.i
 
 # target to preprocess a source file
-Renderer.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Renderer.cpp.i
-.PHONY : Renderer.cpp.i
+Game/Player.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Player.cpp.i
+.PHONY : Game/Player.cpp.i
 
-Renderer.s: Renderer.cpp.s
-.PHONY : Renderer.s
+Game/Player.s: Game/Player.cpp.s
+.PHONY : Game/Player.s
 
 # target to generate assembly for a file
-Renderer.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Renderer.cpp.s
-.PHONY : Renderer.cpp.s
+Game/Player.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Player.cpp.s
+.PHONY : Game/Player.cpp.s
 
-Shader.obj: Shader.cpp.obj
-.PHONY : Shader.obj
+Game/TextureManager.obj: Game/TextureManager.cpp.obj
+.PHONY : Game/TextureManager.obj
 
 # target to build an object file
-Shader.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Shader.cpp.obj
-.PHONY : Shader.cpp.obj
+Game/TextureManager.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj
+.PHONY : Game/TextureManager.cpp.obj
 
-Shader.i: Shader.cpp.i
-.PHONY : Shader.i
+Game/TextureManager.i: Game/TextureManager.cpp.i
+.PHONY : Game/TextureManager.i
 
 # target to preprocess a source file
-Shader.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Shader.cpp.i
-.PHONY : Shader.cpp.i
+Game/TextureManager.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.i
+.PHONY : Game/TextureManager.cpp.i
 
-Shader.s: Shader.cpp.s
-.PHONY : Shader.s
+Game/TextureManager.s: Game/TextureManager.cpp.s
+.PHONY : Game/TextureManager.s
 
 # target to generate assembly for a file
-Shader.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Shader.cpp.s
-.PHONY : Shader.cpp.s
+Game/TextureManager.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.s
+.PHONY : Game/TextureManager.cpp.s
 
-Texture.obj: Texture.cpp.obj
-.PHONY : Texture.obj
+Graphics/IndexBuffer.obj: Graphics/IndexBuffer.cpp.obj
+.PHONY : Graphics/IndexBuffer.obj
 
 # target to build an object file
-Texture.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Texture.cpp.obj
-.PHONY : Texture.cpp.obj
+Graphics/IndexBuffer.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj
+.PHONY : Graphics/IndexBuffer.cpp.obj
 
-Texture.i: Texture.cpp.i
-.PHONY : Texture.i
+Graphics/IndexBuffer.i: Graphics/IndexBuffer.cpp.i
+.PHONY : Graphics/IndexBuffer.i
 
 # target to preprocess a source file
-Texture.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Texture.cpp.i
-.PHONY : Texture.cpp.i
+Graphics/IndexBuffer.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.i
+.PHONY : Graphics/IndexBuffer.cpp.i
 
-Texture.s: Texture.cpp.s
-.PHONY : Texture.s
+Graphics/IndexBuffer.s: Graphics/IndexBuffer.cpp.s
+.PHONY : Graphics/IndexBuffer.s
 
 # target to generate assembly for a file
-Texture.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Texture.cpp.s
-.PHONY : Texture.cpp.s
+Graphics/IndexBuffer.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.s
+.PHONY : Graphics/IndexBuffer.cpp.s
 
-TextureManager.obj: TextureManager.cpp.obj
-.PHONY : TextureManager.obj
+Graphics/Renderer.obj: Graphics/Renderer.cpp.obj
+.PHONY : Graphics/Renderer.obj
 
 # target to build an object file
-TextureManager.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/TextureManager.cpp.obj
-.PHONY : TextureManager.cpp.obj
+Graphics/Renderer.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj
+.PHONY : Graphics/Renderer.cpp.obj
 
-TextureManager.i: TextureManager.cpp.i
-.PHONY : TextureManager.i
+Graphics/Renderer.i: Graphics/Renderer.cpp.i
+.PHONY : Graphics/Renderer.i
 
 # target to preprocess a source file
-TextureManager.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/TextureManager.cpp.i
-.PHONY : TextureManager.cpp.i
+Graphics/Renderer.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.i
+.PHONY : Graphics/Renderer.cpp.i
 
-TextureManager.s: TextureManager.cpp.s
-.PHONY : TextureManager.s
+Graphics/Renderer.s: Graphics/Renderer.cpp.s
+.PHONY : Graphics/Renderer.s
 
 # target to generate assembly for a file
-TextureManager.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/TextureManager.cpp.s
-.PHONY : TextureManager.cpp.s
+Graphics/Renderer.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.s
+.PHONY : Graphics/Renderer.cpp.s
 
-VertexArray.obj: VertexArray.cpp.obj
-.PHONY : VertexArray.obj
+Graphics/Shader.obj: Graphics/Shader.cpp.obj
+.PHONY : Graphics/Shader.obj
 
 # target to build an object file
-VertexArray.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/VertexArray.cpp.obj
-.PHONY : VertexArray.cpp.obj
+Graphics/Shader.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj
+.PHONY : Graphics/Shader.cpp.obj
 
-VertexArray.i: VertexArray.cpp.i
-.PHONY : VertexArray.i
+Graphics/Shader.i: Graphics/Shader.cpp.i
+.PHONY : Graphics/Shader.i
 
 # target to preprocess a source file
-VertexArray.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/VertexArray.cpp.i
-.PHONY : VertexArray.cpp.i
+Graphics/Shader.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.i
+.PHONY : Graphics/Shader.cpp.i
 
-VertexArray.s: VertexArray.cpp.s
-.PHONY : VertexArray.s
+Graphics/Shader.s: Graphics/Shader.cpp.s
+.PHONY : Graphics/Shader.s
 
 # target to generate assembly for a file
-VertexArray.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/VertexArray.cpp.s
-.PHONY : VertexArray.cpp.s
+Graphics/Shader.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.s
+.PHONY : Graphics/Shader.cpp.s
 
-VertexBuffer.obj: VertexBuffer.cpp.obj
-.PHONY : VertexBuffer.obj
+Graphics/Texture.obj: Graphics/Texture.cpp.obj
+.PHONY : Graphics/Texture.obj
 
 # target to build an object file
-VertexBuffer.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj
-.PHONY : VertexBuffer.cpp.obj
+Graphics/Texture.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj
+.PHONY : Graphics/Texture.cpp.obj
 
-VertexBuffer.i: VertexBuffer.cpp.i
-.PHONY : VertexBuffer.i
+Graphics/Texture.i: Graphics/Texture.cpp.i
+.PHONY : Graphics/Texture.i
 
 # target to preprocess a source file
-VertexBuffer.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.i
-.PHONY : VertexBuffer.cpp.i
+Graphics/Texture.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.i
+.PHONY : Graphics/Texture.cpp.i
 
-VertexBuffer.s: VertexBuffer.cpp.s
-.PHONY : VertexBuffer.s
+Graphics/Texture.s: Graphics/Texture.cpp.s
+.PHONY : Graphics/Texture.s
 
 # target to generate assembly for a file
-VertexBuffer.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.s
-.PHONY : VertexBuffer.cpp.s
+Graphics/Texture.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.s
+.PHONY : Graphics/Texture.cpp.s
+
+Graphics/VertexArray.obj: Graphics/VertexArray.cpp.obj
+.PHONY : Graphics/VertexArray.obj
+
+# target to build an object file
+Graphics/VertexArray.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj
+.PHONY : Graphics/VertexArray.cpp.obj
+
+Graphics/VertexArray.i: Graphics/VertexArray.cpp.i
+.PHONY : Graphics/VertexArray.i
+
+# target to preprocess a source file
+Graphics/VertexArray.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.i
+.PHONY : Graphics/VertexArray.cpp.i
+
+Graphics/VertexArray.s: Graphics/VertexArray.cpp.s
+.PHONY : Graphics/VertexArray.s
+
+# target to generate assembly for a file
+Graphics/VertexArray.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.s
+.PHONY : Graphics/VertexArray.cpp.s
+
+Graphics/VertexBuffer.obj: Graphics/VertexBuffer.cpp.obj
+.PHONY : Graphics/VertexBuffer.obj
+
+# target to build an object file
+Graphics/VertexBuffer.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj
+.PHONY : Graphics/VertexBuffer.cpp.obj
+
+Graphics/VertexBuffer.i: Graphics/VertexBuffer.cpp.i
+.PHONY : Graphics/VertexBuffer.i
+
+# target to preprocess a source file
+Graphics/VertexBuffer.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.i
+.PHONY : Graphics/VertexBuffer.cpp.i
+
+Graphics/VertexBuffer.s: Graphics/VertexBuffer.cpp.s
+.PHONY : Graphics/VertexBuffer.s
+
+# target to generate assembly for a file
+Graphics/VertexBuffer.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.s
+.PHONY : Graphics/VertexBuffer.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -510,30 +558,6 @@ main.cpp.s:
 	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-stb_image.obj: stb_image.cpp.obj
-.PHONY : stb_image.obj
-
-# target to build an object file
-stb_image.cpp.obj:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/stb_image.cpp.obj
-.PHONY : stb_image.cpp.obj
-
-stb_image.i: stb_image.cpp.i
-.PHONY : stb_image.i
-
-# target to preprocess a source file
-stb_image.cpp.i:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/stb_image.cpp.i
-.PHONY : stb_image.cpp.i
-
-stb_image.s: stb_image.cpp.s
-.PHONY : stb_image.s
-
-# target to generate assembly for a file
-stb_image.cpp.s:
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/stb_image.cpp.s
-.PHONY : stb_image.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -547,51 +571,54 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... craftmine
-	@echo ... Block.obj
-	@echo ... Block.i
-	@echo ... Block.s
-	@echo ... Chunk.obj
-	@echo ... Chunk.i
-	@echo ... Chunk.s
-	@echo ... Game.obj
-	@echo ... Game.i
-	@echo ... Game.s
-	@echo ... GameRenderer.obj
-	@echo ... GameRenderer.i
-	@echo ... GameRenderer.s
-	@echo ... IndexBuffer.obj
-	@echo ... IndexBuffer.i
-	@echo ... IndexBuffer.s
-	@echo ... Input.obj
-	@echo ... Input.i
-	@echo ... Input.s
-	@echo ... Player.obj
-	@echo ... Player.i
-	@echo ... Player.s
-	@echo ... Renderer.obj
-	@echo ... Renderer.i
-	@echo ... Renderer.s
-	@echo ... Shader.obj
-	@echo ... Shader.i
-	@echo ... Shader.s
-	@echo ... Texture.obj
-	@echo ... Texture.i
-	@echo ... Texture.s
-	@echo ... TextureManager.obj
-	@echo ... TextureManager.i
-	@echo ... TextureManager.s
-	@echo ... VertexArray.obj
-	@echo ... VertexArray.i
-	@echo ... VertexArray.s
-	@echo ... VertexBuffer.obj
-	@echo ... VertexBuffer.i
-	@echo ... VertexBuffer.s
+	@echo ... External/stb_image.obj
+	@echo ... External/stb_image.i
+	@echo ... External/stb_image.s
+	@echo ... External/stb_image_write.obj
+	@echo ... External/stb_image_write.i
+	@echo ... External/stb_image_write.s
+	@echo ... Game/Block.obj
+	@echo ... Game/Block.i
+	@echo ... Game/Block.s
+	@echo ... Game/Chunk.obj
+	@echo ... Game/Chunk.i
+	@echo ... Game/Chunk.s
+	@echo ... Game/Game.obj
+	@echo ... Game/Game.i
+	@echo ... Game/Game.s
+	@echo ... Game/GameRenderer.obj
+	@echo ... Game/GameRenderer.i
+	@echo ... Game/GameRenderer.s
+	@echo ... Game/Input.obj
+	@echo ... Game/Input.i
+	@echo ... Game/Input.s
+	@echo ... Game/Player.obj
+	@echo ... Game/Player.i
+	@echo ... Game/Player.s
+	@echo ... Game/TextureManager.obj
+	@echo ... Game/TextureManager.i
+	@echo ... Game/TextureManager.s
+	@echo ... Graphics/IndexBuffer.obj
+	@echo ... Graphics/IndexBuffer.i
+	@echo ... Graphics/IndexBuffer.s
+	@echo ... Graphics/Renderer.obj
+	@echo ... Graphics/Renderer.i
+	@echo ... Graphics/Renderer.s
+	@echo ... Graphics/Shader.obj
+	@echo ... Graphics/Shader.i
+	@echo ... Graphics/Shader.s
+	@echo ... Graphics/Texture.obj
+	@echo ... Graphics/Texture.i
+	@echo ... Graphics/Texture.s
+	@echo ... Graphics/VertexArray.obj
+	@echo ... Graphics/VertexArray.i
+	@echo ... Graphics/VertexArray.s
+	@echo ... Graphics/VertexBuffer.obj
+	@echo ... Graphics/VertexBuffer.i
+	@echo ... Graphics/VertexBuffer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... stb_image.obj
-	@echo ... stb_image.i
-	@echo ... stb_image.s
 .PHONY : help
 
 

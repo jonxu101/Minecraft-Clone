@@ -17,18 +17,17 @@ struct GameTexture {
 
 class TextureManager {
 private:
-    std::vector<Texture*> AvailableTextures_;
-    std::vector<GameTexture> GameTextures_;
-
-    int cachePtr_;
-    int cacheSize_;
-    std::vector<Texture*> CachedTextures_;
-    std::unordered_map<int, int> idToIndex_;
+    Texture blockTextureArray_;
+    std::vector<std::vector<int>> blockToTextureIndex_;
     
 public:
     TextureManager();
     ~TextureManager();
 
+    // int GetTextureID(tex
+
     void AddAvailable(const std::string path);
     int BindBlockTexture(Utils::BlockType type, uint16_t face);
+    void Bind();
+    void Unbind();
 };

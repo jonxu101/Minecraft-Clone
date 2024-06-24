@@ -60,6 +60,27 @@
         "codecvt": "cpp",
         "cassert": "cpp",
         "set": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "xstring": "cpp",
+        "list": "cpp",
+        "filesystem": "cpp",
+        "forward_list": "cpp",
+        "ios": "cpp",
+        "locale": "cpp",
+        "unordered_set": "cpp",
+        "xfacet": "cpp",
+        "xhash": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xlocbuf": "cpp",
+        "xlocinfo": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp",
+        "xmemory": "cpp",
+        "xtr1common": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
     }
 }

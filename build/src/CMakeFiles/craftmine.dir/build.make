@@ -83,252 +83,269 @@ src/CMakeFiles/craftmine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/main.cpp.s"
 	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\main.cpp -o CMakeFiles\craftmine.dir\main.cpp.s
 
-src/CMakeFiles/craftmine.dir/Block.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/Block.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/Block.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Block.cpp
-src/CMakeFiles/craftmine.dir/Block.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/craftmine.dir/Block.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Block.cpp.obj -MF CMakeFiles\craftmine.dir\Block.cpp.obj.d -o CMakeFiles\craftmine.dir\Block.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Block.cpp
+src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Block.cpp
+src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj -MF CMakeFiles\craftmine.dir\Game\Block.cpp.obj.d -o CMakeFiles\craftmine.dir\Game\Block.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Block.cpp
 
-src/CMakeFiles/craftmine.dir/Block.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Block.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Block.cpp > CMakeFiles\craftmine.dir\Block.cpp.i
+src/CMakeFiles/craftmine.dir/Game/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Game/Block.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Block.cpp > CMakeFiles\craftmine.dir\Game\Block.cpp.i
 
-src/CMakeFiles/craftmine.dir/Block.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Block.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Block.cpp -o CMakeFiles\craftmine.dir\Block.cpp.s
+src/CMakeFiles/craftmine.dir/Game/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Game/Block.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Block.cpp -o CMakeFiles\craftmine.dir\Game\Block.cpp.s
 
-src/CMakeFiles/craftmine.dir/Chunk.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/Chunk.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/Chunk.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Chunk.cpp
-src/CMakeFiles/craftmine.dir/Chunk.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/craftmine.dir/Chunk.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Chunk.cpp.obj -MF CMakeFiles\craftmine.dir\Chunk.cpp.obj.d -o CMakeFiles\craftmine.dir\Chunk.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Chunk.cpp
+src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Chunk.cpp
+src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj -MF CMakeFiles\craftmine.dir\Game\Chunk.cpp.obj.d -o CMakeFiles\craftmine.dir\Game\Chunk.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Chunk.cpp
 
-src/CMakeFiles/craftmine.dir/Chunk.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Chunk.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Chunk.cpp > CMakeFiles\craftmine.dir\Chunk.cpp.i
+src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Game/Chunk.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Chunk.cpp > CMakeFiles\craftmine.dir\Game\Chunk.cpp.i
 
-src/CMakeFiles/craftmine.dir/Chunk.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Chunk.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Chunk.cpp -o CMakeFiles\craftmine.dir\Chunk.cpp.s
+src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Game/Chunk.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Chunk.cpp -o CMakeFiles\craftmine.dir\Game\Chunk.cpp.s
 
-src/CMakeFiles/craftmine.dir/Game.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/Game.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/Game.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game.cpp
-src/CMakeFiles/craftmine.dir/Game.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/craftmine.dir/Game.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Game.cpp.obj -MF CMakeFiles\craftmine.dir\Game.cpp.obj.d -o CMakeFiles\craftmine.dir\Game.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game.cpp
+src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Game.cpp
+src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj -MF CMakeFiles\craftmine.dir\Game\Game.cpp.obj.d -o CMakeFiles\craftmine.dir\Game\Game.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Game.cpp
 
-src/CMakeFiles/craftmine.dir/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Game.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game.cpp > CMakeFiles\craftmine.dir\Game.cpp.i
+src/CMakeFiles/craftmine.dir/Game/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Game/Game.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Game.cpp > CMakeFiles\craftmine.dir\Game\Game.cpp.i
 
-src/CMakeFiles/craftmine.dir/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Game.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game.cpp -o CMakeFiles\craftmine.dir\Game.cpp.s
+src/CMakeFiles/craftmine.dir/Game/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Game/Game.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Game.cpp -o CMakeFiles\craftmine.dir\Game\Game.cpp.s
 
-src/CMakeFiles/craftmine.dir/GameRenderer.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/GameRenderer.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/GameRenderer.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/GameRenderer.cpp
-src/CMakeFiles/craftmine.dir/GameRenderer.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/craftmine.dir/GameRenderer.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/GameRenderer.cpp.obj -MF CMakeFiles\craftmine.dir\GameRenderer.cpp.obj.d -o CMakeFiles\craftmine.dir\GameRenderer.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\GameRenderer.cpp
+src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/GameRenderer.cpp
+src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj -MF CMakeFiles\craftmine.dir\Game\GameRenderer.cpp.obj.d -o CMakeFiles\craftmine.dir\Game\GameRenderer.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\GameRenderer.cpp
 
-src/CMakeFiles/craftmine.dir/GameRenderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/GameRenderer.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\GameRenderer.cpp > CMakeFiles\craftmine.dir\GameRenderer.cpp.i
+src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\GameRenderer.cpp > CMakeFiles\craftmine.dir\Game\GameRenderer.cpp.i
 
-src/CMakeFiles/craftmine.dir/GameRenderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/GameRenderer.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\GameRenderer.cpp -o CMakeFiles\craftmine.dir\GameRenderer.cpp.s
+src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\GameRenderer.cpp -o CMakeFiles\craftmine.dir\Game\GameRenderer.cpp.s
 
-src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/IndexBuffer.cpp
-src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj -MF CMakeFiles\craftmine.dir\IndexBuffer.cpp.obj.d -o CMakeFiles\craftmine.dir\IndexBuffer.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\IndexBuffer.cpp
+src/CMakeFiles/craftmine.dir/Game/Player.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Game/Player.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Game/Player.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Player.cpp
+src/CMakeFiles/craftmine.dir/Game/Player.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/craftmine.dir/Game/Player.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Game/Player.cpp.obj -MF CMakeFiles\craftmine.dir\Game\Player.cpp.obj.d -o CMakeFiles\craftmine.dir\Game\Player.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Player.cpp
 
-src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/IndexBuffer.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\IndexBuffer.cpp > CMakeFiles\craftmine.dir\IndexBuffer.cpp.i
+src/CMakeFiles/craftmine.dir/Game/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Game/Player.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Player.cpp > CMakeFiles\craftmine.dir\Game\Player.cpp.i
 
-src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/IndexBuffer.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\IndexBuffer.cpp -o CMakeFiles\craftmine.dir\IndexBuffer.cpp.s
+src/CMakeFiles/craftmine.dir/Game/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Game/Player.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Player.cpp -o CMakeFiles\craftmine.dir\Game\Player.cpp.s
 
-src/CMakeFiles/craftmine.dir/Input.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/Input.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/Input.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Input.cpp
-src/CMakeFiles/craftmine.dir/Input.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/craftmine.dir/Input.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Input.cpp.obj -MF CMakeFiles\craftmine.dir\Input.cpp.obj.d -o CMakeFiles\craftmine.dir\Input.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Input.cpp
+src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Input.cpp
+src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj -MF CMakeFiles\craftmine.dir\Game\Input.cpp.obj.d -o CMakeFiles\craftmine.dir\Game\Input.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Input.cpp
 
-src/CMakeFiles/craftmine.dir/Input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Input.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Input.cpp > CMakeFiles\craftmine.dir\Input.cpp.i
+src/CMakeFiles/craftmine.dir/Game/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Game/Input.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Input.cpp > CMakeFiles\craftmine.dir\Game\Input.cpp.i
 
-src/CMakeFiles/craftmine.dir/Input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Input.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Input.cpp -o CMakeFiles\craftmine.dir\Input.cpp.s
+src/CMakeFiles/craftmine.dir/Game/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Game/Input.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\Input.cpp -o CMakeFiles\craftmine.dir\Game\Input.cpp.s
 
-src/CMakeFiles/craftmine.dir/Player.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/Player.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/Player.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Player.cpp
-src/CMakeFiles/craftmine.dir/Player.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/craftmine.dir/Player.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Player.cpp.obj -MF CMakeFiles\craftmine.dir\Player.cpp.obj.d -o CMakeFiles\craftmine.dir\Player.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Player.cpp
+src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/TextureManager.cpp
+src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj -MF CMakeFiles\craftmine.dir\Game\TextureManager.cpp.obj.d -o CMakeFiles\craftmine.dir\Game\TextureManager.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\TextureManager.cpp
 
-src/CMakeFiles/craftmine.dir/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Player.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Player.cpp > CMakeFiles\craftmine.dir\Player.cpp.i
+src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Game/TextureManager.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\TextureManager.cpp > CMakeFiles\craftmine.dir\Game\TextureManager.cpp.i
 
-src/CMakeFiles/craftmine.dir/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Player.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Player.cpp -o CMakeFiles\craftmine.dir\Player.cpp.s
+src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Game/TextureManager.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Game\TextureManager.cpp -o CMakeFiles\craftmine.dir\Game\TextureManager.cpp.s
 
-src/CMakeFiles/craftmine.dir/Renderer.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/Renderer.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/Renderer.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Renderer.cpp
-src/CMakeFiles/craftmine.dir/Renderer.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/craftmine.dir/Renderer.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Renderer.cpp.obj -MF CMakeFiles\craftmine.dir\Renderer.cpp.obj.d -o CMakeFiles\craftmine.dir\Renderer.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Renderer.cpp
+src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Graphics/IndexBuffer.cpp
+src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj -MF CMakeFiles\craftmine.dir\Graphics\IndexBuffer.cpp.obj.d -o CMakeFiles\craftmine.dir\Graphics\IndexBuffer.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\IndexBuffer.cpp
 
-src/CMakeFiles/craftmine.dir/Renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Renderer.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Renderer.cpp > CMakeFiles\craftmine.dir\Renderer.cpp.i
+src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\IndexBuffer.cpp > CMakeFiles\craftmine.dir\Graphics\IndexBuffer.cpp.i
 
-src/CMakeFiles/craftmine.dir/Renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Renderer.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Renderer.cpp -o CMakeFiles\craftmine.dir\Renderer.cpp.s
+src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\IndexBuffer.cpp -o CMakeFiles\craftmine.dir\Graphics\IndexBuffer.cpp.s
 
-src/CMakeFiles/craftmine.dir/Shader.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/Shader.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/Shader.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Shader.cpp
-src/CMakeFiles/craftmine.dir/Shader.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/craftmine.dir/Shader.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Shader.cpp.obj -MF CMakeFiles\craftmine.dir\Shader.cpp.obj.d -o CMakeFiles\craftmine.dir\Shader.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Shader.cpp
+src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Graphics/Renderer.cpp
+src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj -MF CMakeFiles\craftmine.dir\Graphics\Renderer.cpp.obj.d -o CMakeFiles\craftmine.dir\Graphics\Renderer.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Renderer.cpp
 
-src/CMakeFiles/craftmine.dir/Shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Shader.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Shader.cpp > CMakeFiles\craftmine.dir\Shader.cpp.i
+src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Renderer.cpp > CMakeFiles\craftmine.dir\Graphics\Renderer.cpp.i
 
-src/CMakeFiles/craftmine.dir/Shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Shader.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Shader.cpp -o CMakeFiles\craftmine.dir\Shader.cpp.s
+src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Renderer.cpp -o CMakeFiles\craftmine.dir\Graphics\Renderer.cpp.s
 
-src/CMakeFiles/craftmine.dir/Texture.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/Texture.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/Texture.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Texture.cpp
-src/CMakeFiles/craftmine.dir/Texture.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/craftmine.dir/Texture.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Texture.cpp.obj -MF CMakeFiles\craftmine.dir\Texture.cpp.obj.d -o CMakeFiles\craftmine.dir\Texture.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Texture.cpp
+src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Graphics/Shader.cpp
+src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj -MF CMakeFiles\craftmine.dir\Graphics\Shader.cpp.obj.d -o CMakeFiles\craftmine.dir\Graphics\Shader.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Shader.cpp
 
-src/CMakeFiles/craftmine.dir/Texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Texture.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Texture.cpp > CMakeFiles\craftmine.dir\Texture.cpp.i
+src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Graphics/Shader.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Shader.cpp > CMakeFiles\craftmine.dir\Graphics\Shader.cpp.i
 
-src/CMakeFiles/craftmine.dir/Texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Texture.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Texture.cpp -o CMakeFiles\craftmine.dir\Texture.cpp.s
+src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Graphics/Shader.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Shader.cpp -o CMakeFiles\craftmine.dir\Graphics\Shader.cpp.s
 
-src/CMakeFiles/craftmine.dir/TextureManager.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/TextureManager.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/TextureManager.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/TextureManager.cpp
-src/CMakeFiles/craftmine.dir/TextureManager.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/craftmine.dir/TextureManager.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/TextureManager.cpp.obj -MF CMakeFiles\craftmine.dir\TextureManager.cpp.obj.d -o CMakeFiles\craftmine.dir\TextureManager.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\TextureManager.cpp
+src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Graphics/Texture.cpp
+src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj -MF CMakeFiles\craftmine.dir\Graphics\Texture.cpp.obj.d -o CMakeFiles\craftmine.dir\Graphics\Texture.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Texture.cpp
 
-src/CMakeFiles/craftmine.dir/TextureManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/TextureManager.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\TextureManager.cpp > CMakeFiles\craftmine.dir\TextureManager.cpp.i
+src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Graphics/Texture.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Texture.cpp > CMakeFiles\craftmine.dir\Graphics\Texture.cpp.i
 
-src/CMakeFiles/craftmine.dir/TextureManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/TextureManager.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\TextureManager.cpp -o CMakeFiles\craftmine.dir\TextureManager.cpp.s
+src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Graphics/Texture.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\Texture.cpp -o CMakeFiles\craftmine.dir\Graphics\Texture.cpp.s
 
-src/CMakeFiles/craftmine.dir/VertexArray.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/VertexArray.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/VertexArray.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/VertexArray.cpp
-src/CMakeFiles/craftmine.dir/VertexArray.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/craftmine.dir/VertexArray.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/VertexArray.cpp.obj -MF CMakeFiles\craftmine.dir\VertexArray.cpp.obj.d -o CMakeFiles\craftmine.dir\VertexArray.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\VertexArray.cpp
+src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Graphics/VertexArray.cpp
+src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj -MF CMakeFiles\craftmine.dir\Graphics\VertexArray.cpp.obj.d -o CMakeFiles\craftmine.dir\Graphics\VertexArray.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\VertexArray.cpp
 
-src/CMakeFiles/craftmine.dir/VertexArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/VertexArray.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\VertexArray.cpp > CMakeFiles\craftmine.dir\VertexArray.cpp.i
+src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\VertexArray.cpp > CMakeFiles\craftmine.dir\Graphics\VertexArray.cpp.i
 
-src/CMakeFiles/craftmine.dir/VertexArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/VertexArray.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\VertexArray.cpp -o CMakeFiles\craftmine.dir\VertexArray.cpp.s
+src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\VertexArray.cpp -o CMakeFiles\craftmine.dir\Graphics\VertexArray.cpp.s
 
-src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/VertexBuffer.cpp
-src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj -MF CMakeFiles\craftmine.dir\VertexBuffer.cpp.obj.d -o CMakeFiles\craftmine.dir\VertexBuffer.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\VertexBuffer.cpp
+src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Graphics/VertexBuffer.cpp
+src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj -MF CMakeFiles\craftmine.dir\Graphics\VertexBuffer.cpp.obj.d -o CMakeFiles\craftmine.dir\Graphics\VertexBuffer.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\VertexBuffer.cpp
 
-src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/VertexBuffer.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\VertexBuffer.cpp > CMakeFiles\craftmine.dir\VertexBuffer.cpp.i
+src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\VertexBuffer.cpp > CMakeFiles\craftmine.dir\Graphics\VertexBuffer.cpp.i
 
-src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/VertexBuffer.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\VertexBuffer.cpp -o CMakeFiles\craftmine.dir\VertexBuffer.cpp.s
+src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\Graphics\VertexBuffer.cpp -o CMakeFiles\craftmine.dir\Graphics\VertexBuffer.cpp.s
 
-src/CMakeFiles/craftmine.dir/stb_image.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
-src/CMakeFiles/craftmine.dir/stb_image.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
-src/CMakeFiles/craftmine.dir/stb_image.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/stb_image.cpp
-src/CMakeFiles/craftmine.dir/stb_image.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/craftmine.dir/stb_image.cpp.obj"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/stb_image.cpp.obj -MF CMakeFiles\craftmine.dir\stb_image.cpp.obj.d -o CMakeFiles\craftmine.dir\stb_image.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\stb_image.cpp
+src/CMakeFiles/craftmine.dir/External/stb_image.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/External/stb_image.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/External/stb_image.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/External/stb_image.cpp
+src/CMakeFiles/craftmine.dir/External/stb_image.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/craftmine.dir/External/stb_image.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/External/stb_image.cpp.obj -MF CMakeFiles\craftmine.dir\External\stb_image.cpp.obj.d -o CMakeFiles\craftmine.dir\External\stb_image.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\External\stb_image.cpp
 
-src/CMakeFiles/craftmine.dir/stb_image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/stb_image.cpp.i"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\stb_image.cpp > CMakeFiles\craftmine.dir\stb_image.cpp.i
+src/CMakeFiles/craftmine.dir/External/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/External/stb_image.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\External\stb_image.cpp > CMakeFiles\craftmine.dir\External\stb_image.cpp.i
 
-src/CMakeFiles/craftmine.dir/stb_image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/stb_image.cpp.s"
-	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\stb_image.cpp -o CMakeFiles\craftmine.dir\stb_image.cpp.s
+src/CMakeFiles/craftmine.dir/External/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/External/stb_image.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\External\stb_image.cpp -o CMakeFiles\craftmine.dir\External\stb_image.cpp.s
+
+src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj: src/CMakeFiles/craftmine.dir/flags.make
+src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj: src/CMakeFiles/craftmine.dir/includes_CXX.rsp
+src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj: C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/External/stb_image_write.cpp
+src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj: src/CMakeFiles/craftmine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj -MF CMakeFiles\craftmine.dir\External\stb_image_write.cpp.obj.d -o CMakeFiles\craftmine.dir\External\stb_image_write.cpp.obj -c C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\External\stb_image_write.cpp
+
+src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/craftmine.dir/External/stb_image_write.cpp.i"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\External\stb_image_write.cpp > CMakeFiles\craftmine.dir\External\stb_image_write.cpp.i
+
+src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/craftmine.dir/External/stb_image_write.cpp.s"
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jonathan\Documents\Coding\MinecraftClone\src\External\stb_image_write.cpp -o CMakeFiles\craftmine.dir\External\stb_image_write.cpp.s
 
 # Object files for target craftmine
 craftmine_OBJECTS = \
 "CMakeFiles/craftmine.dir/main.cpp.obj" \
-"CMakeFiles/craftmine.dir/Block.cpp.obj" \
-"CMakeFiles/craftmine.dir/Chunk.cpp.obj" \
-"CMakeFiles/craftmine.dir/Game.cpp.obj" \
-"CMakeFiles/craftmine.dir/GameRenderer.cpp.obj" \
-"CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj" \
-"CMakeFiles/craftmine.dir/Input.cpp.obj" \
-"CMakeFiles/craftmine.dir/Player.cpp.obj" \
-"CMakeFiles/craftmine.dir/Renderer.cpp.obj" \
-"CMakeFiles/craftmine.dir/Shader.cpp.obj" \
-"CMakeFiles/craftmine.dir/Texture.cpp.obj" \
-"CMakeFiles/craftmine.dir/TextureManager.cpp.obj" \
-"CMakeFiles/craftmine.dir/VertexArray.cpp.obj" \
-"CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj" \
-"CMakeFiles/craftmine.dir/stb_image.cpp.obj"
+"CMakeFiles/craftmine.dir/Game/Block.cpp.obj" \
+"CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj" \
+"CMakeFiles/craftmine.dir/Game/Game.cpp.obj" \
+"CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj" \
+"CMakeFiles/craftmine.dir/Game/Player.cpp.obj" \
+"CMakeFiles/craftmine.dir/Game/Input.cpp.obj" \
+"CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj" \
+"CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj" \
+"CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj" \
+"CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj" \
+"CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj" \
+"CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj" \
+"CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj" \
+"CMakeFiles/craftmine.dir/External/stb_image.cpp.obj" \
+"CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj"
 
 # External object files for target craftmine
 craftmine_EXTERNAL_OBJECTS =
 
 C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/main.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Block.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Chunk.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Game.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/GameRenderer.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/IndexBuffer.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Input.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Player.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Renderer.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Shader.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Texture.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/TextureManager.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/VertexArray.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/VertexBuffer.cpp.obj
-C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/stb_image.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Game/Player.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Game/TextureManager.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Graphics/IndexBuffer.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Graphics/Renderer.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Graphics/Shader.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Graphics/Texture.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Graphics/VertexArray.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/Graphics/VertexBuffer.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/External/stb_image.cpp.obj
+C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj
 C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/build.make
 C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: lib/glfw/src/libglfw3.a
 C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: C:/Users/Jonathan/Documents/Coding/MinecraftClone/lib/glew/lib/libglew32.a
@@ -337,7 +354,7 @@ C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: C:/Program\
 C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/linkLibs.rsp
 C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/objects1.rsp
 C:/Users/Jonathan/Documents/Coding/MinecraftClone/bin/craftmine.exe: src/CMakeFiles/craftmine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable C:\Users\Jonathan\Documents\Coding\MinecraftClone\bin\craftmine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable C:\Users\Jonathan\Documents\Coding\MinecraftClone\bin\craftmine.exe"
 	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\craftmine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

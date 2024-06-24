@@ -156,7 +156,7 @@ lib/glfw/CMakeFiles/uninstall.dir/clean:
 lib/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=33 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=34 "Built target update_mappings"
 .PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +182,7 @@ lib/glfw/src/CMakeFiles/update_mappings.dir/clean:
 lib/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\glfw.dir\build.make lib/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target glfw"
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,12 +208,12 @@ lib/glfw/src/CMakeFiles/glfw.dir/clean:
 src/CMakeFiles/craftmine.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target craftmine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target craftmine"
 .PHONY : src/CMakeFiles/craftmine.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/craftmine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/craftmine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jonathan\Documents\Coding\MinecraftClone\build\CMakeFiles 0
 .PHONY : src/CMakeFiles/craftmine.dir/rule
