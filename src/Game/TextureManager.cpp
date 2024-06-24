@@ -71,11 +71,10 @@ std::string buildTextureArray(const std::vector<std::string>& paths) { // TODO: 
     return OUTPUT_PATH;
 }
 
-TextureManager::TextureManager() :
+TextureManager::TextureManager(int& numBlockTextures) :
     blockToTextureIndex_(Utils::BlockType::SIZE, std::vector<int>(6, -1))
 {
     std::cout << "TextureManager: Constructing" << std::endl;
-    int numTextures = 0;
     std::vector<std::string> texturePaths;
 
     std::unordered_map<std::string, int> pathToId;
@@ -87,10 +86,10 @@ TextureManager::TextureManager() :
         int face = 0;
         for (const auto& path: texture.second) {
             if (pathToId.find(path) == pathToId.end()) {
-                pathToId.emplace(path, numTextures);
+                pathToId.emplace(path, numBlockTextures);
                 std::cout << "TextureManager Init: found " << path << std::endl;
                 texturePaths.push_back("../resources/textures/"+path);
-                numTextures++;
+                numBlockTextures++;
             }
             blockToTextureIndex_[texture.first][face] = pathToId[path];
             face++;

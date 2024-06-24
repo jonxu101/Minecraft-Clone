@@ -6,6 +6,10 @@
 #include <sstream>
 #include <iostream>
 
+Shader::Shader() {
+
+}
+
 Shader::Shader(const std::string& path) : filepath_(path), rendererId_(0) {
     std::cout << "Shader: init" << std::endl;
     ShaderSource source = ParseShaders(path);

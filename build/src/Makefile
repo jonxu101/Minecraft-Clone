@@ -270,6 +270,30 @@ Game/Chunk.cpp.s:
 	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.s
 .PHONY : Game/Chunk.cpp.s
 
+Game/CubeShader.obj: Game/CubeShader.cpp.obj
+.PHONY : Game/CubeShader.obj
+
+# target to build an object file
+Game/CubeShader.cpp.obj:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/CubeShader.cpp.obj
+.PHONY : Game/CubeShader.cpp.obj
+
+Game/CubeShader.i: Game/CubeShader.cpp.i
+.PHONY : Game/CubeShader.i
+
+# target to preprocess a source file
+Game/CubeShader.cpp.i:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/CubeShader.cpp.i
+.PHONY : Game/CubeShader.cpp.i
+
+Game/CubeShader.s: Game/CubeShader.cpp.s
+.PHONY : Game/CubeShader.s
+
+# target to generate assembly for a file
+Game/CubeShader.cpp.s:
+	cd /d C:\Users\Jonathan\Documents\Coding\MinecraftClone\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\craftmine.dir\build.make src/CMakeFiles/craftmine.dir/Game/CubeShader.cpp.s
+.PHONY : Game/CubeShader.cpp.s
+
 Game/Game.obj: Game/Game.cpp.obj
 .PHONY : Game/Game.obj
 
@@ -583,6 +607,9 @@ help:
 	@echo ... Game/Chunk.obj
 	@echo ... Game/Chunk.i
 	@echo ... Game/Chunk.s
+	@echo ... Game/CubeShader.obj
+	@echo ... Game/CubeShader.i
+	@echo ... Game/CubeShader.s
 	@echo ... Game/Game.obj
 	@echo ... Game/Game.i
 	@echo ... Game/Game.s

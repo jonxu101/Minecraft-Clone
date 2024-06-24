@@ -5,13 +5,16 @@
 #include "Graphics/VertexArray.h"
 
 #include "Block.h"
+#include "CubeShader.h"
 #include "TextureManager.h"
 
 class GameRenderer {
 private:
-    std::vector<Shader*> Shaders_;
-    TextureManager TextureManager_;
+    int numTextures_;
 
+    TextureManager TextureManager_;
+    
+    CubeShader cubeShader_;
     VertexBuffer cubeVertexBuffer_;
     std::vector<IndexBuffer*> cubeIndexBuffers_;
 

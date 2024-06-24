@@ -2,6 +2,7 @@ add_executable(craftmine    main.cpp
 
                             Game/Block.cpp
                             Game/Chunk.cpp
+                            Game/CubeShader.cpp
                             Game/Game.cpp
                             Game/GameRenderer.cpp
                             Game/Player.cpp

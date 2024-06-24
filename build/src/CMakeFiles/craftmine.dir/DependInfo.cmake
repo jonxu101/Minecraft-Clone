@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/External/stb_image_write.cpp" "src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj" "gcc" "src/CMakeFiles/craftmine.dir/External/stb_image_write.cpp.obj.d"
   "C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Block.cpp" "src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj" "gcc" "src/CMakeFiles/craftmine.dir/Game/Block.cpp.obj.d"
   "C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Chunk.cpp" "src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj" "gcc" "src/CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj.d"
+  "C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/CubeShader.cpp" "src/CMakeFiles/craftmine.dir/Game/CubeShader.cpp.obj" "gcc" "src/CMakeFiles/craftmine.dir/Game/CubeShader.cpp.obj.d"
   "C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Game.cpp" "src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj" "gcc" "src/CMakeFiles/craftmine.dir/Game/Game.cpp.obj.d"
   "C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/GameRenderer.cpp" "src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj" "gcc" "src/CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj.d"
   "C:/Users/Jonathan/Documents/Coding/MinecraftClone/src/Game/Input.cpp" "src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj" "gcc" "src/CMakeFiles/craftmine.dir/Game/Input.cpp.obj.d"

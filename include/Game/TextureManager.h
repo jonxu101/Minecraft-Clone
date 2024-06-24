@@ -21,7 +21,7 @@ private:
     std::vector<std::vector<int>> blockToTextureIndex_;
     
 public:
-    TextureManager();
+    TextureManager(int& numBlockTextures);
     ~TextureManager();
 
     // int GetTextureID(tex

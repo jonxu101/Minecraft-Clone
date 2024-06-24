@@ -3,6 +3,7 @@
 
 layout(location = 0) in vec3 position;
 layout(location = 1) in vec2 texPos;
+layout(location = 2) in float texInd;
 
 uniform mat4 model;
 uniform mat4 projection;
@@ -14,7 +15,7 @@ out vec2 v_TexCoord;
 
 void main() {
    gl_Position = projection * view * model* vec4((position + blockOffset), 1.0);
-   v_TexCoord = texPos;
+   v_TexCoord = vec2(texPos.x, 1.0 - (texPos.y + texInd) / NUM_TEXTURES);
 };
 
 #shader fragment

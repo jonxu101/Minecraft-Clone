@@ -229,13 +229,13 @@ constexpr unsigned int side_indices4[] = {
     IndexBuffer ib_side4(side_indices4, 6);
     // ib.Bind();
     
-    Shader shader("../resources/shaders/basic.shader");
-    shader.Bind();
-    shader.Unbind();
+    // Shader shader("../resources/shaders/basic.shader");
+    // shader.Bind();
+    // shader.Unbind();
 
-    Shader side_grass_shader("../resources/shaders/side_grass.shader");
-    side_grass_shader.Bind();
-    side_grass_shader.Unbind();
+    // Shader side_grass_shader("../resources/shaders/side_grass.shader");
+    // side_grass_shader.Bind();
+    // side_grass_shader.Unbind();
     // shader.SetUniform4f("u_Color", 0.2f, 0.2f, 0.8f, 1.0f);
 
     // va.Unbind();

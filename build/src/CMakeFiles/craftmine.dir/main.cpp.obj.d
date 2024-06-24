@@ -383,6 +383,7 @@ src/CMakeFiles/craftmine.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
+ C:/Users/Jonathan/Documents/Coding/MinecraftClone/include/Game/CubeShader.h \
  C:/Users/Jonathan/Documents/Coding/MinecraftClone/include/Game/TextureManager.h \
  C:/Users/Jonathan/Documents/Coding/MinecraftClone/include/Game/Player.h \
  C:/msys64/ucrt64/include/c++/13.2.0/chrono \

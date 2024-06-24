@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/craftmine.dir/Game/Block.cpp.obj.d"
   "CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj"
   "CMakeFiles/craftmine.dir/Game/Chunk.cpp.obj.d"
+  "CMakeFiles/craftmine.dir/Game/CubeShader.cpp.obj"
+  "CMakeFiles/craftmine.dir/Game/CubeShader.cpp.obj.d"
   "CMakeFiles/craftmine.dir/Game/Game.cpp.obj"
   "CMakeFiles/craftmine.dir/Game/Game.cpp.obj.d"
   "CMakeFiles/craftmine.dir/Game/GameRenderer.cpp.obj"
