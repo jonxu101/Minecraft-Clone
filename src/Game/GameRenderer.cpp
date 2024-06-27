@@ -3,39 +3,38 @@
 struct Vertex {
     float pos[3];
     float texPos[2];
-    float texInd;
 };
 
 const int NUM_VERTICES = 24;
 
 constexpr Vertex positions[NUM_VERTICES] = {
-    {0.0f,  1.0f,  0.0f, 0.0, 0.0, 0.0}, // 0(0, 2)
-    {1.0f,  1.0f,  0.0f, 1.0, 0.0, 0.0},
-    {0.0f,  1.0f,  1.0f, 0.0, 1.0, 0.0},
-    {1.0f,  1.0f,  1.0f, 1.0, 1.0, 0.0}, // 3
+    {0.0f,  1.0f,  0.0f, 0.0, 0.0}, // 0(0, 2)
+    {1.0f,  1.0f,  0.0f, 1.0, 0.0},
+    {0.0f,  1.0f,  1.0f, 0.0, 1.0},
+    {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 3
 
-    {0.0f,  0.0f,  0.0f, 0.0, 0.0, 0.0}, // 4 (0, 1)
-    {0.0f,  1.0f,  0.0f, 0.0, 1.0, 0.0},
-    {1.0f,  0.0f,  0.0f, 1.0, 0.0, 0.0},
-    {1.0f,  1.0f,  0.0f, 1.0, 1.0, 0.0},
-    {0.0f,  0.0f,  1.0f, 0.0, 0.0, 0.0},
-    {0.0f,  1.0f,  1.0f, 0.0, 1.0, 0.0},
-    {1.0f,  0.0f,  1.0f, 1.0, 0.0, 0.0},
-    {1.0f,  1.0f,  1.0f, 1.0, 1.0, 0.0}, // 11
+    {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 4 (0, 1)
+    {0.0f,  1.0f,  0.0f, 0.0, 1.0},
+    {1.0f,  0.0f,  0.0f, 1.0, 0.0},
+    {1.0f,  1.0f,  0.0f, 1.0, 1.0},
+    {0.0f,  0.0f,  1.0f, 0.0, 0.0},
+    {0.0f,  1.0f,  1.0f, 0.0, 1.0},
+    {1.0f,  0.0f,  1.0f, 1.0, 0.0},
+    {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 11
 
-    {0.0f,  0.0f,  0.0f, 0.0, 0.0, 0.0}, // 12 (1,2)
-    {0.0f,  1.0f,  0.0f, 0.0, 1.0, 0.0},
-    {1.0f,  0.0f,  0.0f, 0.0, 0.0, 0.0},
-    {1.0f,  1.0f,  0.0f, 0.0, 1.0, 0.0},
-    {0.0f,  0.0f,  1.0f, 1.0, 0.0, 0.0},
-    {0.0f,  1.0f,  1.0f, 1.0, 1.0, 0.0},
-    {1.0f,  0.0f,  1.0f, 1.0, 0.0, 0.0},
-    {1.0f,  1.0f,  1.0f, 1.0, 1.0, 0.0}, // 19
+    {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 12 (1,2)
+    {0.0f,  1.0f,  0.0f, 0.0, 1.0},
+    {1.0f,  0.0f,  0.0f, 0.0, 0.0},
+    {1.0f,  1.0f,  0.0f, 0.0, 1.0},
+    {0.0f,  0.0f,  1.0f, 1.0, 0.0},
+    {0.0f,  1.0f,  1.0f, 1.0, 1.0},
+    {1.0f,  0.0f,  1.0f, 1.0, 0.0},
+    {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 19
 
-    {0.0f,  0.0f,  0.0f, 0.0, 0.0, 0.0}, // 20 (0,2)
-    {1.0f,  0.0f,  0.0f, 1.0, 0.0, 0.0},
-    {0.0f,  0.0f,  1.0f, 0.0, 1.0, 0.0},
-    {1.0f,  0.0f,  1.0f, 1.0, 1.0, 0.0}
+    {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 20 (0,2)
+    {1.0f,  0.0f,  0.0f, 1.0, 0.0},
+    {0.0f,  0.0f,  1.0f, 0.0, 1.0},
+    {1.0f,  0.0f,  1.0f, 1.0, 1.0}
 };
 
 const unsigned int top_indices[] = {
@@ -63,21 +62,37 @@ const unsigned int side_indices4[] = {
     14, 18, 19
 };
 
-Vertex* cubeVertexBuffer;
+Vertex* vertices_buffer;
+
+unsigned int indices_buffer[Utils::BlockType::SIZE][36];
 
 class ShaderManager {
     
 };
 
 void constructCubeVertexBuffer(int numTextures) {
-    cubeVertexBuffer = (Vertex*) malloc(sizeof(Vertex) * NUM_VERTICES * numTextures);
+    vertices_buffer = (Vertex*) malloc(sizeof(Vertex) * NUM_VERTICES * numTextures);
 
     int vertex = 0;
     for (int tex = 0; tex < numTextures; tex++) {
         for (int i = 0; i < NUM_VERTICES; i++) {
-            cubeVertexBuffer[vertex] = positions[i];
-            cubeVertexBuffer[vertex].texInd = (float) tex;
+            vertices_buffer[vertex] = positions[i];
+            vertices_buffer[vertex].texInd = (float) tex;
             vertex++;
+        }
+    }
+}
+
+void constructIndexBuffer(TextureManager* textureManager) {
+    std::cout << "Init cubeindexbuffer" << std::endl;
+    for (int type = 1; type < 4; type++) {
+        for (int i = 0; i < 6; i++) {
+            indices_buffer[type][i] = top_indices[i] + 24 * textureManager->BindBlockTexture(static_cast<Utils::BlockType>(type), 0);
+            indices_buffer[type][6 + i] = bottom_indices[i] + 24 * textureManager->BindBlockTexture(static_cast<Utils::BlockType>(type), 1);
+            indices_buffer[type][12 + i] = side_indices1[i] + 24 * textureManager->BindBlockTexture(static_cast<Utils::BlockType>(type), 2);
+            indices_buffer[type][18 + i] = side_indices2[i] + 24 * textureManager->BindBlockTexture(static_cast<Utils::BlockType>(type), 3);
+            indices_buffer[type][24 + i] = side_indices3[i] + 24 * textureManager->BindBlockTexture(static_cast<Utils::BlockType>(type), 4);
+            indices_buffer[type][30 + i] = side_indices4[i] + 24 * textureManager->BindBlockTexture(static_cast<Utils::BlockType>(type), 5);
         }
     }
 }
@@ -85,33 +100,49 @@ void constructCubeVertexBuffer(int numTextures) {
 GameRenderer::GameRenderer() : 
     numTextures_(0),
     TextureManager_(numTextures_),
-    cubeIndexBuffers_{
-        new IndexBuffer(top_indices, 6),
-        new IndexBuffer(bottom_indices, 6),
-        new IndexBuffer(side_indices1, 6),
-        new IndexBuffer(side_indices2, 6),
-        new IndexBuffer(side_indices3, 6),
-        new IndexBuffer(side_indices4, 6) }
+    cubeIndexBuffers_(Utils::BlockType::SIZE, nullptr)
 {
-    constructCubeVertexBuffer(numTextures_);
-
-    cubeVertexBuffer_ = VertexBuffer(positions, numTextures_ * NUM_VERTICES * sizeof(Vertex)),
     std::cout << "GameRenderer: init" << std::endl;
+
+    constructCubeVertexBuffer(numTextures_);
+    
+    for (int i = 0; i < 72; i++) {
+        std::cout 
+        << vertices_buffer[i].pos[0]
+        << vertices_buffer[i].pos[1]
+        << vertices_buffer[i].pos[2]
+        << vertices_buffer[i].texPos[0]
+        << vertices_buffer[i].texPos[1]
+        << vertices_buffer[i].texInd
+        << std::endl;
+    }
+
+    constructIndexBuffer(&TextureManager_);
+
+    for (int i = 0; i < 36; i++) {
+        std::cout 
+        << indices_buffer[2][i] <<",";
+    }
+
+    for (int type = 1; type < 4; type++) {
+        cubeIndexBuffers_[type] = new IndexBuffer(&indices_buffer[type], 36);
+    }
+
+    cubeVertexBuffer_ = new VertexBuffer(vertices_buffer, numTextures_ * NUM_VERTICES * sizeof(Vertex));
+ 
     VertexBufferLayout layout;
     layout.Push<float>(3); // x,y,z
-    layout.Push<float>(2); // texture
-    layout.Push<float>(1); // texture index
+    layout.Push<float>(3); // tex.x, tex.y, texIndex
 
-    cubeVertexArray_.AddBuffer(cubeVertexBuffer_, layout);
-    cubeVertexArray_.Bind();
+    cubeVertexArray_->AddBuffer(*cubeVertexBuffer_, layout);
+    cubeVertexArray_->Bind();
 
     CubeShader::GenShader(numTextures_);
-    cubeShader_ = CubeShader();
-    cubeShader_.Bind();
+    cubeShader_ = new CubeShader();
+    cubeShader_->Bind();
 }
 
 GameRenderer::~GameRenderer() {
-    free(cubeVertexBuffer);
 }
 
 void GameRenderer::SetViewMatrices(glm::mat4* model, glm::mat4* view, glm::mat4* projection) {
@@ -123,10 +154,10 @@ void GameRenderer::SetViewMatrices(glm::mat4* model, glm::mat4* view, glm::mat4*
 #include <glm/gtx/io.hpp>
 
 void GameRenderer::RenderBegin() {
-    cubeShader_.Bind();
-    cubeShader_.SetUniformMatrix4fv("model", 1, *model_);
-    cubeShader_.SetUniformMatrix4fv("projection", 1, *projection_);
-    cubeShader_.SetUniformMatrix4fv("view", 1, *view_);
+    cubeShader_->Bind();
+    cubeShader_->SetUniformMatrix4fv("model", 1, *model_);
+    cubeShader_->SetUniformMatrix4fv("projection", 1, *projection_);
+    cubeShader_->SetUniformMatrix4fv("view", 1, *view_);
 }
 
 // void GameRenderer::BindFace(uint16_t face) {
@@ -134,13 +165,18 @@ void GameRenderer::RenderBegin() {
 //     ib.Bind();
 // }
 
-void GameRenderer::RenderFace(const Block& block, uint16_t face) {
-    cubeShader_.Bind();
-    
-    int texture = TextureManager_.BindBlockTexture(block.type, face);
-    cubeShader_.SetUniform1i("u_Texture", texture);
-    cubeShader_.SetUniform3f("blockOffset", block.pos.x, block.pos.y, block.pos.z);
-    cubeIndexBuffers_[face]->Bind();
+void GameRenderer::RenderBlock(const Block& block) {
+    if (block.type >= 4 || block.type < 1) {
+        std::cout << "ERROR IN RENDERBLOCK, INVALID TYPE" << std::endl;
+    }
 
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+    cubeShader_->Bind();
+    
+    TextureManager_.Bind();
+    cubeShader_->SetUniform1i("u_Texture", 0);
+    cubeShader_->SetUniform3f("blockOffset", block.pos.x, block.pos.y, block.pos.z);
+    cubeVertexArray_->Bind();
+    cubeIndexBuffers_[block.type]->Bind();
+
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, nullptr);
 }

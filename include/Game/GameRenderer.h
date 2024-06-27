@@ -14,11 +14,11 @@ private:
 
     TextureManager TextureManager_;
     
-    CubeShader cubeShader_;
-    VertexBuffer cubeVertexBuffer_;
+    CubeShader* cubeShader_;
+    VertexBuffer* cubeVertexBuffer_;
     std::vector<IndexBuffer*> cubeIndexBuffers_;
 
-    VertexArray cubeVertexArray_;
+    VertexArray* cubeVertexArray_;
 
     glm::mat4* model_;
     glm::mat4* view_;
@@ -32,5 +32,5 @@ public:
     
     void RenderBegin();
     void BindFace(uint16_t face);
-    void RenderFace(const Block& block, uint16_t face);
+    void RenderBlock(const Block& block);
 };

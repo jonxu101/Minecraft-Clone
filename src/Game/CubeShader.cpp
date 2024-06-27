@@ -15,9 +15,11 @@ void CubeShader::GenShader(int numTextures) {
     int lineNum = 0;
 
     while (std::getline(inFile, buffer)) {
-        if (lineNum == 3) {
-            outFile << "const float NUM_TEXTURES = " << std::to_string(numTextures) << ".0;\n";
-        }
+        // if (lineNum == 16) {
+        //     outFile << buffer << std::to_string(numTextures) << ".0);\n";
+        //     lineNum++;
+        //     continue;
+        // }
         outFile << buffer << "\n";
         lineNum++;
     }

@@ -98,6 +98,7 @@ unsigned int Shader::CompileShader(const std::string& source, unsigned int type)
 void Shader::Bind() const {
     GLCall(glUseProgram(rendererId_));
 }
+
 void Shader::Unbind() const {
     GLCall(glUseProgram(0));
 }

@@ -7,7 +7,7 @@
 
 namespace Utils {
 
-const uint16_t CHUNK_SIZE = 16;
+const uint16_t CHUNK_SIZE = 1;
 const uint16_t WORLD_HEIGHT = 32;
 
 const uint16_t DEFAULT_RENDER_DISTANCE = 8;

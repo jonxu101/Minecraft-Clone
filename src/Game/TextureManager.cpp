@@ -109,11 +109,11 @@ void TextureManager::AddAvailable(const std::string path) {
 }
 
 int TextureManager::BindBlockTexture(Utils::BlockType type, uint16_t face) {
-    return 0;
+    return blockToTextureIndex_[type][face]; 
 }
 
 void TextureManager::Bind() {
-    blockTextureArray_.Bind();
+    blockTextureArray_.Bind(0);
 }
 
 void TextureManager::Unbind() {
