@@ -31,7 +31,7 @@ const int RESOLUTION_Y = 1080;
 
 Game::Game() : 
     GameRenderer_(),
-    renderDistance_(2),
+    renderDistance_(1),
     Player_(),
     chunkCache_(renderDistance_, std::vector<Chunk>(renderDistance_, Chunk())) 
 {
@@ -77,86 +77,86 @@ int Game::Run(GLFWwindow* window) {
     std::cout << "Running game!" << std::endl;
 
     // glBlendFuncSeparate(G:+)
-    float positions[] = { //without texture
-        -0.5f, -0.5f, -0.5f, 1.0, 0.0, 0.0,
-        -0.5f,  0.5f, -0.5f, 1.0, 0.0, 0.0,
-         0.5f, -0.5f, -0.5f, 1.0, 0.0, 0.0,
-         0.5f,  0.5f, -0.5f, 1.0, 0.0, 0.0,
-        -0.5f, -0.5f,  0.5f, 1.0, 0.0, 0.0,
-        -0.5f,  0.5f,  0.5f, 1.0, 0.0, 0.0,
-         0.5f, -0.5f,  0.5f, 1.0, 0.0, 0.0,
-         0.5f,  0.5f,  0.5f, 1.0, 0.0, 0.0,
+    // float positions[] = { //without texture
+    //     -0.5f, -0.5f, -0.5f, 1.0, 0.0, 0.0,
+    //     -0.5f,  0.5f, -0.5f, 1.0, 0.0, 0.0,
+    //      0.5f, -0.5f, -0.5f, 1.0, 0.0, 0.0,
+    //      0.5f,  0.5f, -0.5f, 1.0, 0.0, 0.0,
+    //     -0.5f, -0.5f,  0.5f, 1.0, 0.0, 0.0,
+    //     -0.5f,  0.5f,  0.5f, 1.0, 0.0, 0.0,
+    //      0.5f, -0.5f,  0.5f, 1.0, 0.0, 0.0,
+    //      0.5f,  0.5f,  0.5f, 1.0, 0.0, 0.0,
 
-        -0.5f, -0.5f, -0.5f, 0.0, 1.0, 0.0,
-        -0.5f,  0.5f, -0.5f, 0.0, 1.0, 0.0,
-         0.5f, -0.5f, -0.5f, 0.0, 1.0, 0.0,
-         0.5f,  0.5f, -0.5f, 0.0, 1.0, 0.0,
-        -0.5f, -0.5f,  0.5f, 0.0, 1.0, 0.0,
-        -0.5f,  0.5f,  0.5f, 0.0, 1.0, 0.0,
-         0.5f, -0.5f,  0.5f, 0.0, 1.0, 0.0,
-         0.5f,  0.5f,  0.5f, 0.0, 1.0, 0.0,
+    //     -0.5f, -0.5f, -0.5f, 0.0, 1.0, 0.0,
+    //     -0.5f,  0.5f, -0.5f, 0.0, 1.0, 0.0,
+    //      0.5f, -0.5f, -0.5f, 0.0, 1.0, 0.0,
+    //      0.5f,  0.5f, -0.5f, 0.0, 1.0, 0.0,
+    //     -0.5f, -0.5f,  0.5f, 0.0, 1.0, 0.0,
+    //     -0.5f,  0.5f,  0.5f, 0.0, 1.0, 0.0,
+    //      0.5f, -0.5f,  0.5f, 0.0, 1.0, 0.0,
+    //      0.5f,  0.5f,  0.5f, 0.0, 1.0, 0.0,
 
-        -0.5f, -0.5f, -0.5f, 0.0, 0.0, 1.0,
-        -0.5f,  0.5f, -0.5f, 0.0, 0.0, 1.0,
-         0.5f, -0.5f, -0.5f, 0.0, 0.0, 1.0,
-         0.5f,  0.5f, -0.5f, 0.0, 0.0, 1.0,
-        -0.5f, -0.5f,  0.5f, 0.0, 0.0, 1.0,
-        -0.5f,  0.5f,  0.5f, 0.0, 0.0, 1.0,
-         0.5f, -0.5f,  0.5f, 0.0, 0.0, 1.0,
-         0.5f,  0.5f,  0.5f, 0.0, 0.0, 1.0,
-    };
+    //     -0.5f, -0.5f, -0.5f, 0.0, 0.0, 1.0,
+    //     -0.5f,  0.5f, -0.5f, 0.0, 0.0, 1.0,
+    //      0.5f, -0.5f, -0.5f, 0.0, 0.0, 1.0,
+    //      0.5f,  0.5f, -0.5f, 0.0, 0.0, 1.0,
+    //     -0.5f, -0.5f,  0.5f, 0.0, 0.0, 1.0,
+    //     -0.5f,  0.5f,  0.5f, 0.0, 0.0, 1.0,
+    //      0.5f, -0.5f,  0.5f, 0.0, 0.0, 1.0,
+    //      0.5f,  0.5f,  0.5f, 0.0, 0.0, 1.0,
+    // };
 
-    constexpr unsigned int offset = 8;
-    unsigned int indices[] = {
-        offset * 2 + 0, offset * 2 + 1, offset * 2 + 3, // bottom
-        offset * 2 + 3, offset * 2 + 2, offset * 2 + 0,
+    // constexpr unsigned int offset = 8;
+    // unsigned int indices[] = {
+    //     offset * 2 + 0, offset * 2 + 1, offset * 2 + 3, // bottom
+    //     offset * 2 + 3, offset * 2 + 2, offset * 2 + 0,
         
-        offset * 2 + 4, offset * 2 + 5, offset * 2 + 7, // top
-        offset * 2 + 7, offset * 2 + 6, offset * 2 + 4,
+    //     offset * 2 + 4, offset * 2 + 5, offset * 2 + 7, // top
+    //     offset * 2 + 7, offset * 2 + 6, offset * 2 + 4,
 
-        0, 1, 5,
-        0, 4, 5,
+    //     0, 1, 5,
+    //     0, 4, 5,
 
-        2, 3, 7,
-        2, 6, 7,
+    //     2, 3, 7,
+    //     2, 6, 7,
 
-        offset * 1 + 0, offset * 1 + 2, offset * 1 + 6,
-        offset * 1 + 0, offset * 1 + 4, offset * 1 + 6,
+    //     offset * 1 + 0, offset * 1 + 2, offset * 1 + 6,
+    //     offset * 1 + 0, offset * 1 + 4, offset * 1 + 6,
 
-        offset * 1 + 1, offset * 1 + 3, offset * 1 + 7,
-        offset * 1 + 1, offset * 1 + 5, offset * 1 + 7,
+    //     offset * 1 + 1, offset * 1 + 3, offset * 1 + 7,
+    //     offset * 1 + 1, offset * 1 + 5, offset * 1 + 7,
 
-    };
+    // };
 
-    {Vertex positions[] = {
-         {0.0f,  1.0f,  0.0f, 0.0, 0.0}, // 0(0, 2)
-         {1.0f,  1.0f,  0.0f, 1.0, 0.0},
-         {0.0f,  1.0f,  1.0f, 0.0, 1.0},
-         {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 3
+    // {Vertex positions[] = {
+    //      {0.0f,  1.0f,  0.0f, 0.0, 0.0}, // 0(0, 2)
+    //      {1.0f,  1.0f,  0.0f, 1.0, 0.0},
+    //      {0.0f,  1.0f,  1.0f, 0.0, 1.0},
+    //      {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 3
 
-         {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 4 (0, 1)
-         {0.0f,  1.0f,  0.0f, 0.0, 1.0},
-         {1.0f,  0.0f,  0.0f, 1.0, 0.0},
-         {1.0f,  1.0f,  0.0f, 1.0, 1.0},
-         {0.0f,  0.0f,  1.0f, 0.0, 0.0},
-         {0.0f,  1.0f,  1.0f, 0.0, 1.0},
-         {1.0f,  0.0f,  1.0f, 1.0, 0.0},
-         {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 11
+    //      {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 4 (0, 1)
+    //      {0.0f,  1.0f,  0.0f, 0.0, 1.0},
+    //      {1.0f,  0.0f,  0.0f, 1.0, 0.0},
+    //      {1.0f,  1.0f,  0.0f, 1.0, 1.0},
+    //      {0.0f,  0.0f,  1.0f, 0.0, 0.0},
+    //      {0.0f,  1.0f,  1.0f, 0.0, 1.0},
+    //      {1.0f,  0.0f,  1.0f, 1.0, 0.0},
+    //      {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 11
 
-         {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 12 (1,2)
-         {0.0f,  1.0f,  0.0f, 0.0, 1.0},
-         {1.0f,  0.0f,  0.0f, 0.0, 0.0},
-         {1.0f,  1.0f,  0.0f, 0.0, 1.0},
-         {0.0f,  0.0f,  1.0f, 1.0, 0.0},
-         {0.0f,  1.0f,  1.0f, 1.0, 1.0},
-         {1.0f,  0.0f,  1.0f, 1.0, 0.0},
-         {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 19
+    //      {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 12 (1,2)
+    //      {0.0f,  1.0f,  0.0f, 0.0, 1.0},
+    //      {1.0f,  0.0f,  0.0f, 0.0, 0.0},
+    //      {1.0f,  1.0f,  0.0f, 0.0, 1.0},
+    //      {0.0f,  0.0f,  1.0f, 1.0, 0.0},
+    //      {0.0f,  1.0f,  1.0f, 1.0, 1.0},
+    //      {1.0f,  0.0f,  1.0f, 1.0, 0.0},
+    //      {1.0f,  1.0f,  1.0f, 1.0, 1.0}, // 19
 
-         {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 20 (0,2)
-         {1.0f,  0.0f,  0.0f, 1.0, 0.0},
-         {0.0f,  0.0f,  1.0f, 0.0, 1.0},
-         {1.0f,  0.0f,  1.0f, 1.0, 1.0}
-    };
+    //      {0.0f,  0.0f,  0.0f, 0.0, 0.0}, // 20 (0,2)
+    //      {1.0f,  0.0f,  0.0f, 1.0, 0.0},
+    //      {0.0f,  0.0f,  1.0f, 0.0, 1.0},
+    //      {1.0f,  0.0f,  1.0f, 1.0, 1.0}
+    // };
 
     // unsigned int top_indices[] = {
     //     0, 1, 3,
@@ -182,78 +182,78 @@ int Game::Run(GLFWwindow* window) {
     //     14, 18, 19
     // };
 
-constexpr unsigned int top_indices[] = {
-    0, 1, 3,
-    0, 2, 3,
-};
+// constexpr unsigned int top_indices[] = {
+//     0, 1, 3,
+//     0, 2, 3,
+// };
 
-constexpr unsigned int bottom_indices[] = {
-    20, 21, 23,
-    20, 22, 23,
-};
+// constexpr unsigned int bottom_indices[] = {
+//     20, 21, 23,
+//     20, 22, 23,
+// };
 
-constexpr unsigned int side_indices1[] = {
-    4, 5, 7,
-    4, 6, 7,
-};
-constexpr unsigned int side_indices2[] = {
-    8, 9, 11,
-    8, 10, 11,
-};
-constexpr unsigned int side_indices3[] = {
-    12, 13, 17,
-    12, 16, 17,
-};
-constexpr unsigned int side_indices4[] = {
-    14, 15, 19,
-    14, 18, 19
-};
+// constexpr unsigned int side_indices1[] = {
+//     4, 5, 7,
+//     4, 6, 7,
+// };
+// constexpr unsigned int side_indices2[] = {
+//     8, 9, 11,
+//     8, 10, 11,
+// };
+// constexpr unsigned int side_indices3[] = {
+//     12, 13, 17,
+//     12, 16, 17,
+// };
+// constexpr unsigned int side_indices4[] = {
+//     14, 15, 19,
+//     14, 18, 19
+// };
 
-    VertexArray va;
-    // VertexBuffer vb(positions, 8 * 6 * 3 * sizeof(float));
-    VertexBuffer vb(positions, 24 * sizeof(Vertex));
-    // vb.Bind();
+//     VertexArray va;
+//     // VertexBuffer vb(positions, 8 * 6 * 3 * sizeof(float));
+//     VertexBuffer vb(positions, 24 * sizeof(Vertex));
+//     // vb.Bind();
 
-    VertexBufferLayout layout;
-    layout.Push<float>(3);
-    layout.Push<float>(2);
-    // layout.Push<unsigned int>(1);
-    // layout.Push<unsigned int>(1);
-    va.AddBuffer(vb, layout);
+//     VertexBufferLayout layout;
+//     layout.Push<float>(3);
+//     layout.Push<float>(2);
+//     // layout.Push<unsigned int>(1);
+//     // layout.Push<unsigned int>(1);
+//     va.AddBuffer(vb, layout);
 
-    IndexBuffer ib_top(top_indices, 6);
-    IndexBuffer ib_bottom(bottom_indices, 6);
-    IndexBuffer ib_side1(side_indices1, 6);
-    IndexBuffer ib_side2(side_indices2, 6);
-    IndexBuffer ib_side3(side_indices3, 6);
-    IndexBuffer ib_side4(side_indices4, 6);
-    // ib.Bind();
+//     IndexBuffer ib_top(top_indices, 6);
+//     IndexBuffer ib_bottom(bottom_indices, 6);
+//     IndexBuffer ib_side1(side_indices1, 6);
+//     IndexBuffer ib_side2(side_indices2, 6);
+//     IndexBuffer ib_side3(side_indices3, 6);
+//     IndexBuffer ib_side4(side_indices4, 6);
+//     // ib.Bind();
     
-    Shader shader("../resources/shaders/basic.shader");
-    shader.Bind();
-    shader.Unbind();
+//     Shader shader("../resources/shaders/basic.shader");
+//     shader.Bind();
+//     shader.Unbind();
 
-    Shader side_grass_shader("../resources/shaders/side_grass.shader");
-    side_grass_shader.Bind();
-    side_grass_shader.Unbind();
-    // shader.SetUniform4f("u_Color", 0.2f, 0.2f, 0.8f, 1.0f);
+//     Shader side_grass_shader("../resources/shaders/side_grass.shader");
+//     side_grass_shader.Bind();
+//     side_grass_shader.Unbind();
+//     // shader.SetUniform4f("u_Color", 0.2f, 0.2f, 0.8f, 1.0f);
 
-    // va.Unbind();
-    // vb.Unbind();
-    // ib_top.Unbind();
-    // ib_bottom.Unbind();
-    // ib_side.Unbind();
+//     // va.Unbind();
+//     // vb.Unbind();
+//     // ib_top.Unbind();
+//     // ib_bottom.Unbind();
+//     // ib_side.Unbind();
     
-    float r = 0.0f;
-    float incr = 0.0005f;
+//     float r = 0.0f;
+//     float incr = 0.0005f;
 
-    Renderer renderer;
+//     Renderer renderer;
 
-    float colors[12] = {
-        1.0, 0.0, 0.0, 1.0,
-        0.0, 1.0, 0.0, 1.0,
-        0.0, 0.0, 1.0, 1.0,
-    };
+//     float colors[12] = {
+//         1.0, 0.0, 0.0, 1.0,
+//         0.0, 1.0, 0.0, 1.0,
+//         0.0, 0.0, 1.0, 1.0,
+//     };
 
     // Player player;
 
@@ -367,7 +367,6 @@ constexpr unsigned int side_indices4[] = {
         glfwSwapBuffers(window);
         /* Poll for and process events */
         glfwPollEvents();
-    }
     }
     glfwTerminate();
     return 0;
