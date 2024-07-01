@@ -14,7 +14,7 @@ int main(void) {
     // glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     // glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     
-    window = glfwCreateWindow(640, 480, "Craftmine", NULL, NULL);
+    window = glfwCreateWindow(Utils::RESOLUTION_X, Utils::RESOLUTION_Y, "Craftmine", NULL, NULL);
 
     /* Create a windowed mode window and its OpenGL context */
     if (!window)

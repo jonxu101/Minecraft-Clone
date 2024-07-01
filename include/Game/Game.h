@@ -9,6 +9,7 @@
 
 #include <string>
 #include <vector>
+#include <optional>
 
 class Game {
 private:
@@ -26,6 +27,12 @@ public:
     Game();
     ~Game();
 
-    void Render();
     int Run(GLFWwindow* window);
+
+private:
+    void render();
+    void tick();
+
+    void handlePlayerDestroy(Block* block);
+    Block* raytraceClosest();
 };

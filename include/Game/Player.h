@@ -44,12 +44,19 @@ public:
     Player();
     ~Player();
 
-    void handleKeys();
-    void handleMouse();
+    void HandleKeys();
+    void HandleMouse();
 
     void Update(std::chrono::high_resolution_clock::time_point current);
     
     glm::mat4* GetViewPtr();
     void SetView();
     glm::mat4 view();
+
+    glm::vec3 GetViewPos();
+    glm::vec3 GetViewDiff();
+    
+private:
+    void handleDestroy();
+    void handleInteract();
 };

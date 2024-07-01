@@ -6,13 +6,18 @@
 #include <string>
 
 namespace Utils {
+// Window Constants:
+const int RESOLUTION_X = 1920;
+const int RESOLUTION_Y = 1080;
 
-const uint16_t CHUNK_SIZE = 1;
-const uint16_t WORLD_HEIGHT = 32;
+// Game Constants
+const uint32_t CHUNK_SIZE = 16;
+const uint32_t WORLD_HEIGHT = 32;
 
-const uint16_t DEFAULT_RENDER_DISTANCE = 2;
+const uint32_t DEFAULT_RENDER_DISTANCE = 2;
 
-const uint16_t TICKS_PER_SECOND = 20;
+const uint32_t TICKS_PER_SECOND = 20;
+constexpr long long MILLIS_BETWEEN_TICKS = 1000 / TICKS_PER_SECOND;
 
 typedef long long millis;
 typedef long long micros;
@@ -34,11 +39,7 @@ struct BlockTexture {
     const std::string bottom;
 };
 
-const std::vector<BlockTexture> BlockToTexture {
-    {"grass_block_top.png", "dirt.png"},
-
-    {"dirt.png", "dirt.png", "dirt.png"},
-    
-};
+// Player Constants
+const float PLAYER_INTERACT_RANGE = 6.0;
 
 }

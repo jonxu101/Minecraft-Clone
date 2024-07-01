@@ -64,3 +64,7 @@ void Chunk::Render(GameRenderer& renderer) const {
         }
     }
 }
+
+Block* Chunk::GetBlock(int x, int y, int z) {
+    return &blocks[y][x][z];
+}

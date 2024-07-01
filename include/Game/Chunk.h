@@ -24,4 +24,5 @@ public:
 
     void GenerateChunk();
     void Render(GameRenderer& renderer) const;
+    Block* GetBlock(int x, int y, int z);
 };
