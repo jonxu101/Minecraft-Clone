@@ -12,13 +12,13 @@ class GameRenderer {
 private:
     int numTextures_;
 
-    TextureManager TextureManager_;
+    TextureManager* TextureManager_;
     
     CubeShader* cubeShader_;
     VertexBuffer* cubeVertexBuffer_;
     std::vector<IndexBuffer*> cubeIndexBuffers_;
 
-    VertexArray* cubeVertexArray_;
+    VertexArray cubeVertexArray_;
 
     glm::mat4* model_;
     glm::mat4* view_;
@@ -31,6 +31,6 @@ public:
     void SetViewMatrices(glm::mat4* model_, glm::mat4* view, glm::mat4* projection);
     
     void RenderBegin();
-    void BindFace(uint16_t face);
+    // void BindFace(uint16_t face);
     void RenderBlock(const Block& block);
 };

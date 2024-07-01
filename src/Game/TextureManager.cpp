@@ -96,7 +96,7 @@ TextureManager::TextureManager(int& numBlockTextures) :
         }
     }
 
-    blockTextureArray_ = Texture(buildTextureArray(texturePaths), 10);
+    blockTextureArray_ = new Texture(buildTextureArray(texturePaths), 10);
     Bind();
 }
 
@@ -113,9 +113,9 @@ int TextureManager::BindBlockTexture(Utils::BlockType type, uint16_t face) {
 }
 
 void TextureManager::Bind() {
-    blockTextureArray_.Bind(0);
+    blockTextureArray_->Bind(1);
 }
 
 void TextureManager::Unbind() {
-    blockTextureArray_.Unbind();
+    blockTextureArray_->Unbind();
 }

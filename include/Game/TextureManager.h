@@ -17,7 +17,7 @@ struct GameTexture {
 
 class TextureManager {
 private:
-    Texture blockTextureArray_;
+    Texture* blockTextureArray_;
     std::vector<std::vector<int>> blockToTextureIndex_;
     
 public:

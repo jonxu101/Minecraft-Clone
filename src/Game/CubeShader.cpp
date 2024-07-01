@@ -4,7 +4,7 @@
 #include <iostream>
 
 const std::string IN_PATH = "../resources/shaders/basic.shader";
-const std::string OUT_PATH = "../resources/shaders/block_basic.shader";
+const std::string OUT_PATH = "../resources/shaders/out/block_basic.shader";
 
 void CubeShader::GenShader(int numTextures) {
     std::cout << "Generating Cube Shader!" << std::endl;

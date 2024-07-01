@@ -9,9 +9,10 @@ VertexArray::~VertexArray() {
     GLCall(glDeleteVertexArrays(1, &rendererId_));
 }
 
-void VertexArray::AddBuffer(const VertexBuffer& vb, const VertexBufferLayout& layout) {
+void VertexArray::AddBuffer(VertexBuffer* vb, const VertexBufferLayout& layout) {
+    std::cout << "Addbuffer" << std::endl;
     Bind();
-    vb.Bind();
+    vb->Bind();
     const auto& elements = layout.GetElements();
     unsigned offset = 0;
     
@@ -22,7 +23,7 @@ void VertexArray::AddBuffer(const VertexBuffer& vb, const VertexBufferLayout& la
         GLCall(glEnableVertexAttribArray(i));
         offset += element.count * VertexBufferElement::GetSizeOf(element.type);
     }
-    
+    std::cout << "End Addbuffer" << std::endl;
 
 }
 

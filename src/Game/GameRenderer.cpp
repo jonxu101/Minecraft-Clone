@@ -77,7 +77,9 @@ void constructCubeVertexBuffer(int numTextures) {
     for (int tex = 0; tex < numTextures; tex++) {
         for (int i = 0; i < NUM_VERTICES; i++) {
             vertices_buffer[vertex] = positions[i];
-            vertices_buffer[vertex].texInd = (float) tex;
+            vertices_buffer[vertex].texPos[0] = positions[i].texPos[0];
+            float newCoord = 1.0 - (positions[i].texPos[1] + (float) tex) / (float) numTextures;
+            vertices_buffer[vertex].texPos[1] = newCoord;
             vertex++;
         }
     }
@@ -99,25 +101,24 @@ void constructIndexBuffer(TextureManager* textureManager) {
 
 GameRenderer::GameRenderer() : 
     numTextures_(0),
-    TextureManager_(numTextures_),
     cubeIndexBuffers_(Utils::BlockType::SIZE, nullptr)
 {
+    TextureManager_ = new TextureManager(numTextures_);
     std::cout << "GameRenderer: init" << std::endl;
 
     constructCubeVertexBuffer(numTextures_);
     
     for (int i = 0; i < 72; i++) {
         std::cout 
-        << vertices_buffer[i].pos[0]
-        << vertices_buffer[i].pos[1]
-        << vertices_buffer[i].pos[2]
-        << vertices_buffer[i].texPos[0]
-        << vertices_buffer[i].texPos[1]
-        << vertices_buffer[i].texInd
+        << vertices_buffer[i].pos[0] << ", "
+        << vertices_buffer[i].pos[1] << ", "
+        << vertices_buffer[i].pos[2] << ", "
+        << vertices_buffer[i].texPos[0] << ", "
+        << vertices_buffer[i].texPos[1] << ", "
         << std::endl;
     }
 
-    constructIndexBuffer(&TextureManager_);
+    constructIndexBuffer(TextureManager_);
 
     for (int i = 0; i < 36; i++) {
         std::cout 
@@ -132,14 +133,19 @@ GameRenderer::GameRenderer() :
  
     VertexBufferLayout layout;
     layout.Push<float>(3); // x,y,z
-    layout.Push<float>(3); // tex.x, tex.y, texIndex
+    layout.Push<float>(2); // tex.x, tex.y
 
-    cubeVertexArray_->AddBuffer(*cubeVertexBuffer_, layout);
-    cubeVertexArray_->Bind();
+    // if (cubeVertexBuffer_ == nullptr) {
+    //     std::cout << "wtf\n";
+    // }
+    cubeVertexArray_.AddBuffer(cubeVertexBuffer_, layout);
+    cubeVertexArray_.Bind();
 
     CubeShader::GenShader(numTextures_);
     cubeShader_ = new CubeShader();
     cubeShader_->Bind();
+    TextureManager_->Bind();
+
 }
 
 GameRenderer::~GameRenderer() {
@@ -172,10 +178,10 @@ void GameRenderer::RenderBlock(const Block& block) {
 
     cubeShader_->Bind();
     
-    TextureManager_.Bind();
-    cubeShader_->SetUniform1i("u_Texture", 0);
+    cubeShader_->SetUniform1i("u_Texture", 1);
     cubeShader_->SetUniform3f("blockOffset", block.pos.x, block.pos.y, block.pos.z);
-    cubeVertexArray_->Bind();
+    cubeVertexArray_.Bind();
+    TextureManager_->Bind();
     cubeIndexBuffers_[block.type]->Bind();
 
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, nullptr);
