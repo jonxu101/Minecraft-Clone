@@ -26,7 +26,6 @@ public:
 
     // int GetTextureID(tex
 
-    void AddAvailable(const std::string path);
     int BindBlockTexture(Utils::BlockType type, uint16_t face);
     void Bind();
     void Unbind();

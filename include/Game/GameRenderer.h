@@ -12,7 +12,7 @@ class GameRenderer {
 private:
     int numTextures_;
 
-    TextureManager* TextureManager_;
+    TextureManager TextureManager_;
     
     CubeShader* cubeShader_;
     VertexBuffer* cubeVertexBuffer_;

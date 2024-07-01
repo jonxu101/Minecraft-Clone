@@ -104,10 +104,6 @@ TextureManager::~TextureManager() {
 
 }
 
-void TextureManager::AddAvailable(const std::string path) {
-
-}
-
 int TextureManager::BindBlockTexture(Utils::BlockType type, uint16_t face) {
     return blockToTextureIndex_[type][face]; 
 }

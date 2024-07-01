@@ -101,9 +101,10 @@ void constructIndexBuffer(TextureManager* textureManager) {
 
 GameRenderer::GameRenderer() : 
     numTextures_(0),
+    TextureManager_(numTextures_),
     cubeIndexBuffers_(Utils::BlockType::SIZE, nullptr)
 {
-    TextureManager_ = new TextureManager(numTextures_);
+    
     std::cout << "GameRenderer: init" << std::endl;
 
     constructCubeVertexBuffer(numTextures_);
@@ -118,7 +119,7 @@ GameRenderer::GameRenderer() :
         << std::endl;
     }
 
-    constructIndexBuffer(TextureManager_);
+    constructIndexBuffer(&TextureManager_);
 
     for (int i = 0; i < 36; i++) {
         std::cout 
@@ -144,7 +145,7 @@ GameRenderer::GameRenderer() :
     CubeShader::GenShader(numTextures_);
     cubeShader_ = new CubeShader();
     cubeShader_->Bind();
-    TextureManager_->Bind();
+    TextureManager_.Bind();
 
 }
 
@@ -181,7 +182,7 @@ void GameRenderer::RenderBlock(const Block& block) {
     cubeShader_->SetUniform1i("u_Texture", 1);
     cubeShader_->SetUniform3f("blockOffset", block.pos.x, block.pos.y, block.pos.z);
     cubeVertexArray_.Bind();
-    TextureManager_->Bind();
+    TextureManager_.Bind();
     cubeIndexBuffers_[block.type]->Bind();
 
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, nullptr);
