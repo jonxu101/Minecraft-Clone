@@ -20,6 +20,7 @@ private:
     std::unordered_map<std::string, int> UniformLocationCache_;
 
 public:
+    Shader();
     Shader(const std::string& path);
 
     ~Shader();

@@ -219,7 +219,11 @@ int Game::Run(GLFWwindow* window) {
 //     layout.Push<float>(2);
 //     // layout.Push<unsigned int>(1);
 //     // layout.Push<unsigned int>(1);
+<<<<<<< HEAD:src/Game.cpp
 //     va.AddBuffer(vb, layout);
+=======
+//     va.AddBuffer(&vb, layout);
+>>>>>>> test:src/Game/Game.cpp
 
 //     IndexBuffer ib_top(top_indices, 6);
 //     IndexBuffer ib_bottom(bottom_indices, 6);
@@ -229,6 +233,7 @@ int Game::Run(GLFWwindow* window) {
 //     IndexBuffer ib_side4(side_indices4, 6);
 //     // ib.Bind();
     
+<<<<<<< HEAD:src/Game.cpp
 //     Shader shader("../resources/shaders/basic.shader");
 //     shader.Bind();
 //     shader.Unbind();
@@ -236,6 +241,15 @@ int Game::Run(GLFWwindow* window) {
 //     Shader side_grass_shader("../resources/shaders/side_grass.shader");
 //     side_grass_shader.Bind();
 //     side_grass_shader.Unbind();
+=======
+//     // Shader shader("../resources/shaders/basic.shader");
+//     // shader.Bind();
+//     // shader.Unbind();
+
+//     // Shader side_grass_shader("../resources/shaders/side_grass.shader");
+//     // side_grass_shader.Bind();
+//     // side_grass_shader.Unbind();
+>>>>>>> test:src/Game/Game.cpp
 //     // shader.SetUniform4f("u_Color", 0.2f, 0.2f, 0.8f, 1.0f);
 
 //     // va.Unbind();

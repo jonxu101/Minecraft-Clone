@@ -1,5 +1,10 @@
+#pragma once
+
+#include <string>
+
+const std::string basic_block_shader = "
 #shader vertex
-#version 460 core
+#version 330 core
 
 layout(location = 0) in vec3 position;
 layout(location = 1) in vec2 texPos;
@@ -13,12 +18,12 @@ uniform vec3 blockOffset = vec3(0.0, 0.0, 0.0);
 out vec2 v_TexCoord;
 
 void main() {
-   gl_Position = projection * view * model * vec4((position + blockOffset), 1.0);
+   gl_Position = projection * view * model* vec4((position + blockOffset), 1.0);
    v_TexCoord = texPos;
 };
 
 #shader fragment
-#version 460 core
+#version 330 core
 
 in vec2 v_TexCoord;
 layout(location = 0) out vec4 color;
@@ -28,4 +33,4 @@ uniform sampler2D u_Texture;
 void main() {
    vec4 texColor = texture(u_Texture, v_TexCoord);
    color = texColor;
-};
+};";

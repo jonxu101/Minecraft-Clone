@@ -1,6 +1,10 @@
 #include "Graphics/Renderer.h"
 #include "Graphics/VertexBuffer.h"
 
+VertexBuffer::VertexBuffer() {
+
+}
+
 VertexBuffer::VertexBuffer(const void* data, unsigned int size){
     std::cout << "VertexBuffer: begin initing" << std::endl;
     GLCall(glGenBuffers(1, &rendererId_));

@@ -59,9 +59,7 @@ void Chunk::Render(GameRenderer& renderer) const {
                 if (block.type == Utils::BlockType::AIR) {
                     continue;
                 }
-                for (int face = 0; face < 6; face++) {
-                    renderer.RenderFace(block, face);
-                }
+                renderer.RenderBlock(block);
             }
         }
     }

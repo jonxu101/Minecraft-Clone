@@ -6,6 +6,10 @@
 #include <sstream>
 #include <iostream>
 
+Shader::Shader() {
+
+}
+
 Shader::Shader(const std::string& path) : filepath_(path), rendererId_(0) {
     std::cout << "Shader: init" << std::endl;
     ShaderSource source = ParseShaders(path);
@@ -94,6 +98,7 @@ unsigned int Shader::CompileShader(const std::string& source, unsigned int type)
 void Shader::Bind() const {
     GLCall(glUseProgram(rendererId_));
 }
+
 void Shader::Unbind() const {
     GLCall(glUseProgram(0));
 }

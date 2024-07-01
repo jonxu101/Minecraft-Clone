@@ -1,20 +1,23 @@
 add_executable(craftmine    main.cpp
 
-                            Block.cpp
-                            Chunk.cpp
-                            Game.cpp
-                            GameRenderer.cpp
-                            IndexBuffer.cpp
-                            Input.cpp
-                            Player.cpp
-                            Renderer.cpp
-                            Shader.cpp
-                            Texture.cpp
-                            TextureManager.cpp
-                            VertexArray.cpp
-                            VertexBuffer.cpp
+                            Game/Block.cpp
+                            Game/Chunk.cpp
+                            Game/CubeShader.cpp
+                            Game/Game.cpp
+                            Game/GameRenderer.cpp
+                            Game/Player.cpp
+                            Game/Input.cpp
+                            Game/TextureManager.cpp
+
+                            Graphics/IndexBuffer.cpp
+                            Graphics/Renderer.cpp
+                            Graphics/Shader.cpp
+                            Graphics/Texture.cpp
+                            Graphics/VertexArray.cpp
+                            Graphics/VertexBuffer.cpp
                             
-                            stb_image.cpp)
+                            External/stb_image.cpp
+                            External/stb_image_write.cpp)
 
 target_include_directories(craftmine PUBLIC     ${PROJECT_SOURCE_DIR}/include)
 
