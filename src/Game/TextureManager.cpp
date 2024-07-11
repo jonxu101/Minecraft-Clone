@@ -43,7 +43,13 @@ const std::map<Utils::BlockType, std::vector<std::string>> textureConfig
                                         "stone.png",
                                         "stone.png",
                                         "stone.png",
-                                        "stone.png"}}                            
+                                        "stone.png"}},
+    {Utils::BlockType::BEDROCK,       { "bedrock.png",
+                                        "bedrock.png",
+                                        "bedrock.png",
+                                        "bedrock.png",
+                                        "bedrock.png",
+                                        "bedrock.png"}}                
 };
  
 #include <iostream>

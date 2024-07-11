@@ -87,7 +87,7 @@ void constructCubeVertexBuffer(int numTextures) {
 
 void constructIndexBuffer(TextureManager* textureManager) {
     std::cout << "Init cubeindexbuffer" << std::endl;
-    for (int type = 1; type < 4; type++) {
+    for (int type = 1; type < Utils::MAX_SUPPORTED_BLOCKTYPE; type++) {
         for (int i = 0; i < 6; i++) {
             indices_buffer[type][i] = top_indices[i] + 24 * textureManager->BindBlockTexture(static_cast<Utils::BlockType>(type), 0);
             indices_buffer[type][6 + i] = bottom_indices[i] + 24 * textureManager->BindBlockTexture(static_cast<Utils::BlockType>(type), 1);
@@ -105,11 +105,11 @@ GameRenderer::GameRenderer() :
     cubeIndexBuffers_(Utils::BlockType::SIZE, nullptr)
 {
     
-    std::cout << "GameRenderer: init" << std::endl;
+    std::cout << "GameRenderer: init " << std::endl;
 
     constructCubeVertexBuffer(numTextures_);
     
-    for (int i = 0; i < 72; i++) {
+    for (int i = 0; i < 96; i++) {
         std::cout 
         << vertices_buffer[i].pos[0] << ", "
         << vertices_buffer[i].pos[1] << ", "
@@ -126,9 +126,10 @@ GameRenderer::GameRenderer() :
         << indices_buffer[2][i] <<",";
     }
 
-    for (int type = 1; type < 4; type++) {
+    for (int type = 1; type < Utils::MAX_SUPPORTED_BLOCKTYPE; type++) {
         cubeIndexBuffers_[type] = new IndexBuffer(&indices_buffer[type], 36);
     }
+    std::cout << "GameRenderer: max supported block: " << Utils::MAX_SUPPORTED_BLOCKTYPE << std::endl;
 
     cubeVertexBuffer_ = new VertexBuffer(vertices_buffer, numTextures_ * NUM_VERTICES * sizeof(Vertex));
  
@@ -136,9 +137,6 @@ GameRenderer::GameRenderer() :
     layout.Push<float>(3); // x,y,z
     layout.Push<float>(2); // tex.x, tex.y
 
-    // if (cubeVertexBuffer_ == nullptr) {
-    //     std::cout << "wtf\n";
-    // }
     cubeVertexArray_.AddBuffer(cubeVertexBuffer_, layout);
     cubeVertexArray_.Bind();
 
@@ -167,16 +165,7 @@ void GameRenderer::RenderBegin() {
     cubeShader_->SetUniformMatrix4fv("view", 1, *view_);
 }
 
-// void GameRenderer::BindFace(uint16_t face) {
-//     const IndexBuffer& ib = cubeIndexBuffers_[face];
-//     ib.Bind();
-// }
-
 void GameRenderer::RenderBlock(const Block& block) {
-    if (block.type >= 4 || block.type < 1) {
-        std::cout << "ERROR IN RENDERBLOCK, INVALID TYPE" << std::endl;
-    }
-
     cubeShader_->Bind();
     
     cubeShader_->SetUniform1i("u_Texture", 1);

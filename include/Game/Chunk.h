@@ -25,4 +25,7 @@ public:
     void GenerateChunk();
     void Render(GameRenderer& renderer) const;
     Block* GetBlock(int x, int y, int z);
+
+private:
+    void setLayer(int y, Utils::BlockType type);
 };

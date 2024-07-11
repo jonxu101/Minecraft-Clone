@@ -27,11 +27,14 @@ enum BlockType {
     GRASS,
     DIRT,
     STONE,
+    BEDROCK,
     LOG,
     LEAF,
     WOOD_PLANK,
     SIZE
 };
+
+const int MAX_SUPPORTED_BLOCKTYPE = static_cast<int>(BlockType::BEDROCK + 1);
 
 struct BlockTexture {
     const std::string top;
@@ -41,5 +44,13 @@ struct BlockTexture {
 
 // Player Constants
 const float PLAYER_INTERACT_RANGE = 6.0;
+
+}
+
+namespace math {
+
+inline float normal(float x) {
+    return (x > 0) - (x < 0);
+}
 
 }

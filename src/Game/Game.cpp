@@ -12,7 +12,6 @@
 #include <sstream>
 #include <cassert>
 #include <chrono>
-#include <algorithm>
 
 #include "Graphics/IndexBuffer.h"
 #include "Graphics/Renderer.h"
@@ -67,11 +66,14 @@ void Game::render() {
 
 void Game::tick() {
     if (Input::left_click == 1) {
-        handlePlayerDestroy(raytraceClosest());
+        handlePlayerDestroy();
+    } else if (Input::right_click == 1) {
+        handlePlayerInteract();
     }
 }
 
-void Game::handlePlayerDestroy(Block* block) {
+void Game::handlePlayerDestroy() {
+    Block* block = raytraceClosest<1>();
     if (!block) {
         std::cout << "What? " << std::endl;
         return;
@@ -79,45 +81,13 @@ void Game::handlePlayerDestroy(Block* block) {
     block->type = Utils::BlockType::AIR;
 }
 
-inline float normal(float x) {
-    return (x > 0) - (x < 0);
-}
-
-Block* Game::raytraceClosest() {
-    glm::vec3 start = Player_.GetViewPos();
-    glm::vec3 p_Ray = start;
-    glm::vec3 d_Ray = Player_.GetViewDiff();
-
-    float unit_dx = normal(d_Ray.x);
-    float unit_dy = normal(d_Ray.y);
-    float unit_dz = normal(d_Ray.z);
-
-    while (p_Ray.y >= 0.0 && p_Ray.y <= static_cast<float>(Utils::WORLD_HEIGHT) && glm::distance(start, p_Ray) <= Utils::PLAYER_INTERACT_RANGE) {
-        std::cout << p_Ray.x << "," << p_Ray.y << "," << p_Ray.z << std::endl;
-        float jump = std::min({ ((p_Ray.x - std::ceil(p_Ray.x - unit_dx * 0.5) + unit_dx * 0.5)) / d_Ray.x,
-                                ((p_Ray.y - std::ceil(p_Ray.y - unit_dy * 0.5) + unit_dy * 0.5)) / d_Ray.y,
-                                ((p_Ray.z - std::ceil(p_Ray.z - unit_dz * 0.5) + unit_dz * 0.5)) / d_Ray.z});
-
-        jump += normal(jump) * 0.001f;
-
-        p_Ray = p_Ray + jump * d_Ray;
-
-        std::cout << p_Ray.x << "," << p_Ray.y << "," << p_Ray.z << std::endl;
-
-        int int_x = round(p_Ray.x);
-        int int_z = round(p_Ray.z);
-
-        int chunk_x = int_x / Utils::CHUNK_SIZE % Utils::DEFAULT_RENDER_DISTANCE;
-        int chunk_z = int_z / Utils::CHUNK_SIZE % Utils::DEFAULT_RENDER_DISTANCE;
-        std::cout << "Eliminating block at " << chunk_x << ", " << chunk_z << std::endl;
-        std::cout << "exact coords: " << (int_x % Utils::CHUNK_SIZE) << ", " << round(p_Ray.y) << "," << (int_z % Utils::CHUNK_SIZE) << std::endl;
-        Block* block = chunkCache_[chunk_x][chunk_z].GetBlock(int_x % Utils::CHUNK_SIZE, round(p_Ray.y), int_z % Utils::CHUNK_SIZE);
-        if (block->type != Utils::BlockType::AIR) {
-            std::cout << "return" <<std::endl;
-            return block;
-        }
+void Game::handlePlayerInteract() {
+    Block* block = raytraceClosest<-1>();
+    if (!block) {
+        std::cout << "What? " << std::endl;
+        return;
     }
-    return nullptr;
+    block->type = Utils::BlockType::BEDROCK;
 }
 
 int Game::Run(GLFWwindow* window) {

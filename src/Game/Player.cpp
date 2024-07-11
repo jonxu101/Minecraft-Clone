@@ -86,25 +86,18 @@ void Player::Update(std::chrono::high_resolution_clock::time_point current) {
     previousTimestamp_ = current;
     HandleKeys();
     HandleMouse();
-    std::cout << "Player pos: " << pos_xz.x << "," << pos_y << ", " <<  pos_xz.y << std::endl;
-    // std::cout << "Time delta: " << timeDelta << std::endl;
     glm::vec2 forward(glm::cos(view_theta), glm::sin(view_theta));
-    // std::cout << "("<< forward.x << "," << forward.y << ")" << std::endl;
     accel_xz = rotational_xz * forward;
-    // std::cout << "("<< accel_xz.x << "," << accel_xz.y << ")" << std::endl;
     if (glm::length(accel_xz) > 0.0f) {
         accel_xz = glm::normalize(accel_xz) * HORIZ_ACCEL;
     } else { // dampening and come to a stop if no input
         accel_xz = -15.0f * vel_xz;
     }
 
-    // std::cout << accel_y << std::endl;
     if (accel_y == 0.0f) {
-        // std::cout << "Dampening vert" << std::endl;
         accel_y = -15.0f * vel_y;
     }
 
-    // std::cout << "("<< accel_xz.x << "," << accel_xz.y << ")" << std::endl;
     vel_xz += timeDelta / 1000000.0f * accel_xz;
     vel_y += timeDelta / 1000000.0f * accel_y;
 
@@ -119,7 +112,6 @@ void Player::Update(std::chrono::high_resolution_clock::time_point current) {
     pos_y += timeDelta / 1000000.0f * vel_y;
 
     SetView();
-    // std::cout << "Updated pos: (" << pos_xz.x << ", " << pos_y << ", " << pos_xz.y << ")" << std::endl; 
 }
 
 glm::mat4* Player::GetViewPtr() {
